@@ -31,7 +31,7 @@
         <item name="actionOverflowButtonStyle">@style/DialtactsActionBarOverflow</item>
 
         <!--  Drawable for the back button -->
-        <item name="android:homeAsUpIndicator">@drawable/ic_back_arrow</item>
+        <item name="android:homeAsUpIndicator">@drawable/placeholder_icon</item>
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:listViewStyle">@style/ListViewStyle</item>
         <item name="android:overlapAnchor">true</item>
@@ -79,11 +79,11 @@
         <item name="call_log_voicemail_status_action_text_color">#33b5e5</item>
             <!-- Favorites -->
         <item name="favorites_padding_bottom">?android:attr/actionBarSize</item>
-        <item name="android:colorPrimary">@color/dialer_theme_color</item>
-        <item name="android:colorPrimaryDark">@color/dialer_theme_color_dark</item>
+        <item name="android:colorPrimary">#FF69B4</item>
+        <item name="android:colorPrimaryDark">#FF69B4</item>
         <item name="dialpad_key_button_touch_tint">@color/dialer_dialpad_touch_tint</item>
-        <item name="android:colorControlActivated">@color/dialer_theme_color</item>
-        <item name="android:colorButtonNormal">@color/dialer_theme_color</item>
+        <item name="android:colorControlActivated">#FF69B4</item>
+        <item name="android:colorButtonNormal">#FF69B4</item>
         <item name="android:textAppearanceButton">@style/DialerButtonTextStyle</item>
 
         <!-- Video call icon -->
@@ -98,7 +98,7 @@
     <!-- Action bar overflow menu icon. -->
     <style name="DialtactsActionBarOverflow"
            parent="@android:style/Widget.Material.Light.ActionButton.Overflow">
-        <item name="android:src">@drawable/ic_overflow_menu</item>
+        <item name="android:src">@drawable/placeholder_icon</item>
     </style>
 
     <!-- Action bar overflow menu icon.  White with no shadow. -->
@@ -125,7 +125,7 @@
         <item name="android:actionBarStyle">@style/DialtactsActionBarWithoutTitleStyle</item>
         <item name="actionBarStyle">@style/DialtactsActionBarWithoutTitleStyle</item>
 
-        <item name="android:fastScrollThumbDrawable">@drawable/fastscroll_thumb</item>
+        <item name="android:fastScrollThumbDrawable">@drawable/placeholder_icon</item>
         <item name="android:fastScrollTrackDrawable">@null</item>
     </style>
 
@@ -159,7 +159,7 @@
     <style name="DialtactsActionBarStyle"
            parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
         <!-- Styles that require AppCompat compatibility, remember to update both sets -->
-        <item name="android:background">@color/actionbar_background_color</item>
+        <item name="android:background">#FF69B4</item>
         <item name="background">@color/actionbar_background_color</item>
         <item name="android:titleTextStyle">@style/DialtactsActionBarTitleText</item>
         <item name="titleTextStyle">@style/DialtactsActionBarTitleText</item>
@@ -191,14 +191,14 @@
     <!-- Text in the action bar at the top of the screen -->
     <style name="DialtactsActionBarTitleText"
            parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title">
-        <item name="android:textColor">@color/actionbar_text_color</item>
+        <item name="android:textColor">#FF69B4</item>
     </style>
 
     <!-- Text style for tabs. -->
     <style name="DialtactsActionBarTabTextStyle"
            parent="android:style/Widget.Material.Light.ActionBar.TabText">
         <item name="android:textColor">@color/tab_text_color</item>
-        <item name="android:textSize">@dimen/tab_text_size</item>
+        <item name="android:textSize">#FF69B4</item>
         <item name="android:fontFamily">"sans-serif-medium"</item>
     </style>
 
@@ -252,8 +252,8 @@
         <!-- Setting description. -->
         <item name="android:textColorSecondary">@color/settings_text_color_secondary</item>
         <item name="android:windowBackground">@color/setting_background_color</item>
-        <item name="android:colorAccent">@color/dialtacts_theme_color</item>
-        <item name="android:textColorLink">@color/dialtacts_theme_color</item>
+        <item name="android:colorAccent">#FF69B4</item>
+        <item name="android:textColorLink">#FF69B4</item>
     </style>
 
     <style name="ManageBlockedNumbersStyle" parent="SettingsStyle">
@@ -274,7 +274,7 @@
     <!-- Inherit from Theme.Material.Light.Dialog instead of Theme.Material.Light.Dialog.Alert
     since the Alert dialog is private. They are identical anyway. -->
     <style name="AlertDialogTheme" parent="@android:style/Theme.Material.Light.Dialog">
-        <item name="android:colorAccent">@color/dialtacts_theme_color</item>
+        <item name="android:colorAccent">#FF69B4</item>
     </style>
 
     <style name="CallLogCardStyle" parent="CardView">
@@ -292,7 +292,7 @@
         <item name="android:gravity">end|center_vertical</item>
         <item name="android:paddingStart">@dimen/call_log_action_horizontal_padding</item>
         <item name="android:paddingEnd">@dimen/call_log_action_horizontal_padding</item>
-        <item name="android:textColor">@color/dialtacts_theme_color</item>
+        <item name="android:textColor">#FF69B4</item>
         <item name="android:fontFamily">"sans-serif-medium"</item>
         <item name="android:focusable">true</item>
         <item name="android:singleLine">true</item>

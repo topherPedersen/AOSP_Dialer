@@ -25,7 +25,7 @@
     <color name="blocked_number_block_color">#F44336</color>
     <color name="blocked_number_disabled_emergency_background_color">#E0E0E0</color>
     <color name="blocked_number_disabled_emergency_header_color">#616161</color>
-    <color name="blocked_number_header_color">@color/dialer_theme_color</color>
+    <color name="blocked_number_header_color">#FF69B4</color>
     <color name="blocked_number_icon_tint">#616161</color>
     <color name="blocked_number_primary_text_color">@color/dialtacts_primary_text_color</color>
     <color name="blocked_number_secondary_text_color">@color/dialtacts_secondary_text_color</color>
@@ -33,7 +33,7 @@
     <color name="call_detail_footer_text_color">#616161</color>
     <color name="call_log_action_color">#b3000000</color>
     <color name="call_log_action_divider">#eeeeee</color>
-    <color name="call_log_action_text">@color/dialer_theme_color</color>
+    <color name="call_log_action_text">#FF69B4</color>
     <color name="call_log_day_group_heading_color">#8a000000</color>
     <color name="call_log_detail_color">#8a000000</color>
     <color name="call_log_icon_tint">#8a000000</color>
@@ -48,10 +48,10 @@
     <color name="contacts_grid_bottom_border_color">#16000000</color>
     <color name="dialer_button_text_color">#fff</color>
     <color name="dialer_dialpad_touch_tint">#330288d1</color>
-    <color name="dialer_flat_button_text_color">@color/dialer_theme_color</color>
+    <color name="dialer_flat_button_text_color">#FF69B4</color>
     <color name="dialer_green_highlight_color">#00c853</color>
     <color name="dialer_red_highlight_color">#ff1744</color>
-    <color name="dialer_snackbar_action_text_color">@color/dialer_theme_color</color>
+    <color name="dialer_snackbar_action_text_color">#FF69B4</color>
     <color name="dialtacts_primary_text_color">#333333</color>
     <color name="dialtacts_secondary_text_color">#636363</color>
     <color name="divider_line_color">#D8D8D8</color>
@@ -74,9 +74,9 @@
     <color name="visual_voicemail_promo_card_divider">#7d57c1</color>
     <color name="voicemail_icon_disabled_tint">#80000000</color>
     <color name="voicemail_icon_tint">@color/call_log_icon_tint</color>
-    <color name="voicemail_playback_seek_bar_already_played">@color/dialer_theme_color</color>
+    <color name="voicemail_playback_seek_bar_already_played">#FF69B4</color>
     <color name="voicemail_playback_seek_bar_yet_to_play">#cecece</color>
-    <color name="voicemail_playpause_icon_tint">@color/dialer_theme_color</color>
+    <color name="voicemail_playpause_icon_tint">#FF69B4</color>
     <declare-styleable name="CallLog"><attr format="color" name="call_log_primary_text_color"/><attr format="color" name="call_log_primary_background_color"/><attr format="color" name="call_log_secondary_text_color"/><attr format="color" name="call_log_secondary_background_color"/><attr format="color" name="call_log_header_color"/></declare-styleable>
     <declare-styleable name="SearchEditTextLayout"/>
     <declare-styleable name="VoicemailStatus"><attr format="dimension" name="call_log_voicemail_status_height"/><attr format="color" name="call_log_voicemail_status_background_color"/><attr format="color" name="call_log_voicemail_status_text_color"/><attr format="color" name="call_log_voicemail_status_action_text_color"/></declare-styleable>
@@ -527,7 +527,7 @@
     <string name="voicemail_status_messages_waiting">New voicemail waiting. Can\'t load right now.</string>
     <string name="voicemail_status_voicemail_not_available">Voicemail updates not available</string>
     <style name="AlertDialogTheme" parent="@android:style/Theme.Material.Light.Dialog">
-        <item name="android:colorAccent">@color/dialtacts_theme_color</item>
+        <item name="android:colorAccent">#FF69B4</item>
     </style>
     <style name="BlockedNumbersDescriptionTextStyle">
         <item name="android:lineSpacingMultiplier">1.43</item>
@@ -617,14 +617,14 @@
         <item name="android:textColorPrimary">#FFFFFF</item>
     </style>
     <style name="DialtactsActionBarOverflow" parent="@android:style/Widget.Material.Light.ActionButton.Overflow">
-        <item name="android:src">@drawable/ic_overflow_menu</item>
+        <item name="android:src">@drawable/placeholder_icon</item>
     </style>
     <style name="DialtactsActionBarOverflowWhite" parent="@android:style/Widget.Material.Light.ActionButton.Overflow">
         <item name="android:src">@drawable/overflow_menu</item>
     </style>
     <style name="DialtactsActionBarStyle" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
         <!-- Styles that require AppCompat compatibility, remember to update both sets -->
-        <item name="android:background">@color/actionbar_background_color</item>
+        <item name="android:background">#FF69B4</item>
         <item name="background">@color/actionbar_background_color</item>
         <item name="android:titleTextStyle">@style/DialtactsActionBarTitleText</item>
         <item name="titleTextStyle">@style/DialtactsActionBarTitleText</item>
@@ -641,11 +641,11 @@
     </style>
     <style name="DialtactsActionBarTabTextStyle" parent="android:style/Widget.Material.Light.ActionBar.TabText">
         <item name="android:textColor">@color/tab_text_color</item>
-        <item name="android:textSize">@dimen/tab_text_size</item>
+        <item name="android:textSize">#FF69B4</item>
         <item name="android:fontFamily">"sans-serif-medium"</item>
     </style>
     <style name="DialtactsActionBarTitleText" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title">
-        <item name="android:textColor">@color/actionbar_text_color</item>
+        <item name="android:textColor">#FF69B4</item>
     </style>
     <style name="DialtactsActionBarWithoutTitleStyle" parent="DialtactsActionBarStyle">
         <!-- Styles that require AppCompat compatibility, remember to update both sets -->
@@ -664,7 +664,7 @@
         <item name="android:actionBarStyle">@style/DialtactsActionBarWithoutTitleStyle</item>
         <item name="actionBarStyle">@style/DialtactsActionBarWithoutTitleStyle</item>
 
-        <item name="android:fastScrollThumbDrawable">@drawable/fastscroll_thumb</item>
+        <item name="android:fastScrollThumbDrawable">@drawable/placeholder_icon</item>
         <item name="android:fastScrollTrackDrawable">@null</item>
     </style>
     <style name="DialtactsTheme" parent="Theme.AppCompat.Light">
@@ -683,7 +683,7 @@
         <item name="actionOverflowButtonStyle">@style/DialtactsActionBarOverflow</item>
 
         <!--  Drawable for the back button -->
-        <item name="android:homeAsUpIndicator">@drawable/ic_back_arrow</item>
+        <item name="android:homeAsUpIndicator">@drawable/placeholder_icon</item>
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:listViewStyle">@style/ListViewStyle</item>
         <item name="android:overlapAnchor">true</item>
@@ -731,11 +731,11 @@
         <item name="call_log_voicemail_status_action_text_color">#33b5e5</item>
             <!-- Favorites -->
         <item name="favorites_padding_bottom">?android:attr/actionBarSize</item>
-        <item name="android:colorPrimary">@color/dialer_theme_color</item>
-        <item name="android:colorPrimaryDark">@color/dialer_theme_color_dark</item>
+        <item name="android:colorPrimary">#FF69B4</item>
+        <item name="android:colorPrimaryDark">#FF69B4</item>
         <item name="dialpad_key_button_touch_tint">@color/dialer_dialpad_touch_tint</item>
-        <item name="android:colorControlActivated">@color/dialer_theme_color</item>
-        <item name="android:colorButtonNormal">@color/dialer_theme_color</item>
+        <item name="android:colorControlActivated">#FF69B4</item>
+        <item name="android:colorButtonNormal">#FF69B4</item>
         <item name="android:textAppearanceButton">@style/DialerButtonTextStyle</item>
 
         <!-- Video call icon -->
@@ -784,8 +784,8 @@
         <!-- Setting description. -->
         <item name="android:textColorSecondary">@color/settings_text_color_secondary</item>
         <item name="android:windowBackground">@color/setting_background_color</item>
-        <item name="android:colorAccent">@color/dialtacts_theme_color</item>
-        <item name="android:textColorLink">@color/dialtacts_theme_color</item>
+        <item name="android:colorAccent">#FF69B4</item>
+        <item name="android:textColorLink">#FF69B4</item>
     </style>
     <style name="TextActionStyle">
         <item name="android:layout_width">wrap_content</item>
@@ -793,7 +793,7 @@
         <item name="android:gravity">end|center_vertical</item>
         <item name="android:paddingStart">@dimen/call_log_action_horizontal_padding</item>
         <item name="android:paddingEnd">@dimen/call_log_action_horizontal_padding</item>
-        <item name="android:textColor">@color/dialtacts_theme_color</item>
+        <item name="android:textColor">#FF69B4</item>
         <item name="android:fontFamily">"sans-serif-medium"</item>
         <item name="android:focusable">true</item>
         <item name="android:singleLine">true</item>

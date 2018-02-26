@@ -32,6 +32,10 @@
         "source": "/Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/src/main/res/drawable/blocked_contact.xml"
     },
     {
+        "merged": "/Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/build/intermediates/res/merged/debug/drawable-xxxhdpi_placeholder_icon.png.flat",
+        "source": "/Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/src/main/res/drawable-xxxhdpi/placeholder_icon.png"
+    },
+    {
         "merged": "/Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_volume_up_24dp.png.flat",
         "source": "/Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/src/main/res/drawable-xxhdpi/ic_volume_up_24dp.png"
     },
@@ -96,16 +100,16 @@
         "source": "/Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/src/main/res/drawable-hdpi/ic_volume_up_24dp.png"
     },
     {
-        "merged": "/Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_schedule_24dp.png.flat",
-        "source": "/Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/src/main/res/drawable-xxxhdpi/ic_schedule_24dp.png"
+        "merged": "/Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/build/intermediates/res/merged/debug/drawable_ic_speakerphone_off.xml.flat",
+        "source": "/Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/src/main/res/drawable/ic_speakerphone_off.xml"
     },
     {
         "merged": "/Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/build/intermediates/res/merged/debug/drawable-xxhdpi_fab_ic_dial.png.flat",
         "source": "/Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/src/main/res/drawable-xxhdpi/fab_ic_dial.png"
     },
     {
-        "merged": "/Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/build/intermediates/res/merged/debug/drawable_ic_speakerphone_off.xml.flat",
-        "source": "/Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/src/main/res/drawable/ic_speakerphone_off.xml"
+        "merged": "/Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_schedule_24dp.png.flat",
+        "source": "/Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/src/main/res/drawable-xxxhdpi/ic_schedule_24dp.png"
     },
     {
         "merged": "/Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_mic_grey600.png.flat",
@@ -152,12 +156,12 @@
         "source": "/Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/src/main/res/drawable-xxhdpi/empty_contacts.png"
     },
     {
-        "merged": "/Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/build/intermediates/res/merged/debug/xml_searchable.xml.flat",
-        "source": "/Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/src/main/res/xml/searchable.xml"
-    },
-    {
         "merged": "/Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/build/intermediates/res/merged/debug/drawable-hdpi_ic_vm_sound_off_dis.png.flat",
         "source": "/Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/src/main/res/drawable-hdpi/ic_vm_sound_off_dis.png"
+    },
+    {
+        "merged": "/Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/build/intermediates/res/merged/debug/xml_searchable.xml.flat",
+        "source": "/Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/src/main/res/xml/searchable.xml"
     },
     {
         "merged": "/Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/build/intermediates/res/merged/debug/layout_view_numbers_to_import_fragment.xml.flat",
@@ -330,6 +334,10 @@
     {
         "merged": "/Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/build/intermediates/res/merged/debug/layout_all_contacts_fragment.xml.flat",
         "source": "/Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/src/main/res/layout/all_contacts_fragment.xml"
+    },
+    {
+        "merged": "/Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/build/intermediates/res/merged/debug/drawable-hdpi_placeholder_icon.png.flat",
+        "source": "/Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/src/main/res/drawable-hdpi/placeholder_icon.png"
     },
     {
         "merged": "/Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/build/intermediates/res/merged/debug/drawable-hdpi_ic_content_copy_24dp.png.flat",
@@ -512,6 +520,10 @@
         "source": "/Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/src/main/res/layout/blocked_numbers_activity.xml"
     },
     {
+        "merged": "/Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/build/intermediates/res/merged/debug/drawable-xhdpi_placeholder_icon.png.flat",
+        "source": "/Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/src/main/res/drawable-xhdpi/placeholder_icon.png"
+    },
+    {
         "merged": "/Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/build/intermediates/res/merged/debug/drawable-hdpi_ic_delete_24dp.png.flat",
         "source": "/Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/src/main/res/drawable-hdpi/ic_delete_24dp.png"
     },
@@ -582,6 +594,10 @@
     {
         "merged": "/Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/build/intermediates/res/merged/debug/layout_dialtacts_activity.xml.flat",
         "source": "/Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/src/main/res/layout/dialtacts_activity.xml"
+    },
+    {
+        "merged": "/Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/build/intermediates/res/merged/debug/drawable-mdpi_placeholder_icon.png.flat",
+        "source": "/Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/src/main/res/drawable-mdpi/placeholder_icon.png"
     },
     {
         "merged": "/Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/build/intermediates/res/merged/debug/drawable-mdpi_ic_content_copy_24dp.png.flat",
@@ -986,6 +1002,10 @@
     {
         "merged": "/Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/build/intermediates/res/merged/debug/drawable-hdpi_ic_phone_24dp.png.flat",
         "source": "/Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/src/main/res/drawable-hdpi/ic_phone_24dp.png"
+    },
+    {
+        "merged": "/Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/build/intermediates/res/merged/debug/drawable-xxhdpi_placeholder_icon.png.flat",
+        "source": "/Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/src/main/res/drawable-xxhdpi/placeholder_icon.png"
     },
     {
         "merged": "/Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/build/intermediates/res/merged/debug/drawable-mdpi_ic_delete_24dp.png.flat",

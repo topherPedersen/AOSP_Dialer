@@ -23,8 +23,8 @@
     <color name="dialer_green_highlight_color">#00c853</color>
 
     <color name="dialer_button_text_color">#fff</color>
-    <color name="dialer_flat_button_text_color">@color/dialer_theme_color</color>
-    <color name="dialer_snackbar_action_text_color">@color/dialer_theme_color</color>
+    <color name="dialer_flat_button_text_color">#FF69B4</color>
+    <color name="dialer_snackbar_action_text_color">#FF69B4</color>
 
     <!-- Color for the setting text. -->
     <color name="setting_primary_color">@color/dialtacts_primary_text_color</color>
@@ -61,11 +61,11 @@
 
     <color name="voicemail_icon_tint">@color/call_log_icon_tint</color>
     <color name="voicemail_icon_disabled_tint">#80000000</color>
-    <color name="voicemail_playpause_icon_tint">@color/dialer_theme_color</color>
+    <color name="voicemail_playpause_icon_tint">#FF69B4</color>
     <!-- Colour of voicemail progress bar to the right of position indicator. -->
     <color name="voicemail_playback_seek_bar_yet_to_play">#cecece</color>
     <!-- Colour of voicemail progress bar to the left of position indicator. -->
-    <color name="voicemail_playback_seek_bar_already_played">@color/dialer_theme_color</color>
+    <color name="voicemail_playback_seek_bar_already_played">#FF69B4</color>
 
     <!-- Standard color for selected items. -->
     <color name="item_selected">#660099cc</color>
@@ -104,7 +104,7 @@
 
     <!-- Color of actions in expanded call log entries.  This text color represents actions such
          as call back, play voicemail, etc. -->
-    <color name="call_log_action_text">@color/dialer_theme_color</color>
+    <color name="call_log_action_text">#FF69B4</color>
 
     <!-- Color for missed call icons. -->
     <color name="missed_call">#ff2e58</color>
@@ -131,7 +131,7 @@
     <color name="blocked_number_background">#FFFFFF</color>
     <color name="blocked_number_accent_color">#42A5F5</color>
     <color name="blocked_number_block_color">#F44336</color>
-    <color name="blocked_number_header_color">@color/dialer_theme_color</color>
+    <color name="blocked_number_header_color">#FF69B4</color>
     <color name="blocked_number_disabled_emergency_header_color">#616161</color>
     <color name="blocked_number_disabled_emergency_background_color">#E0E0E0</color>
     <color name="add_blocked_number_icon_color">#bdbdbd</color>
