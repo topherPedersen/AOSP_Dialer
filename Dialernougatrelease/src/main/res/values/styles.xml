@@ -198,7 +198,7 @@
     <style name="DialtactsActionBarTabTextStyle"
            parent="android:style/Widget.Material.Light.ActionBar.TabText">
         <item name="android:textColor">@color/tab_text_color</item>
-        <item name="android:textSize">#FF69B4</item>
+        <item name="android:textSize">20sp</item>
         <item name="android:fontFamily">"sans-serif-medium"</item>
     </style>
 

@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 26
+    compileSdkVersion 24
     buildToolsVersion "27.0.3"
 
     defaultConfig {
         applicationId "com.android.dialer"
-        minSdkVersion 23
-        targetSdkVersion 23
+        minSdkVersion 24
+        targetSdkVersion 24
 
         testApplicationId "com.android.dialer.tests"
         testInstrumentationRunner "android.test.InstrumentationTestRunner"
@@ -18,5 +18,9 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
+    }
+
+    dependencies {
+        compile 'com.android.support:cardview-v7:24.0.0'
     }
 }

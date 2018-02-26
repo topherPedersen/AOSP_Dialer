@@ -21,8 +21,8 @@
     android:versionName="3.00.00" >
 
     <uses-sdk
-        android:minSdkVersion="23"
-        android:targetSdkVersion="23" />
+        android:minSdkVersion="24"
+        android:targetSdkVersion="24" />
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
@@ -71,7 +71,6 @@
         android:icon="@mipmap/ic_launcher_phone"
         android:label="@string/applicationLabel"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:usesCleartextTraffic="false" >
         <meta-data
             android:name="com.google.android.backup.api_key"
