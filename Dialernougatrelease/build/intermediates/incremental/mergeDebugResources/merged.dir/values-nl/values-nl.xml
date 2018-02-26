@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="dtmf_tone_length_entries">
+    <item msgid="1036113889050195575">"Normaal"</item>
+    <item msgid="6177579030803486015">"Lang"</item>
+  </string-array>
+    <plurals formatted="false" msgid="8708346053055570332" name="description_voicemail_unread">
+      <item quantity="other"><ns1:g id="COUNT_1">%d</ns1:g> nieuwe voicemails</item>
+      <item quantity="one"><ns1:g id="COUNT_0">%d</ns1:g> nieuwe voicemail</item>
+    </plurals>
+    <plurals formatted="false" msgid="9088953961148324851" name="notification_voicemail_title">
+      <item quantity="other"> <ns1:g id="COUNT">%1$d</ns1:g> voicemails </item>
+      <item quantity="one">Voicemail</item>
+    </plurals>
+    <string msgid="2297282583928508760" name="accessibility_call_is_active">"<ns1:g id="NAMEORNUMBER">^1</ns1:g> is actief"</string>
+    <string msgid="6068141142874046249" name="accessibility_settings_title">"Toegankelijkheid"</string>
+    <string msgid="6028930669817038600" name="actionIncomingCall">"Inkomende oproepen"</string>
+    <string msgid="1482657602262262134" name="action_block_number">"Nummer blokkeren"</string>
+    <string msgid="588249522108594155" name="action_copy_number_text">"Nummer kopiëren"</string>
+    <string msgid="3100221149873436485" name="action_edit_number_before_call">"Nummer bewerken vóór bellen"</string>
+    <string msgid="9018442816219748968" name="action_menu_call_history_description">"Oproepgeschiedenis"</string>
+    <string msgid="1425910318049008136" name="action_menu_dialpad_button">"toetsenblok"</string>
+    <string msgid="2303272250613084574" name="action_menu_overflow_description">"Meer opties"</string>
+    <string msgid="4635403959812186162" name="action_report_number">"Onjuist nummer melden"</string>
+    <string msgid="3043777622269776127" name="action_unblock_number">"Blokkeren van nummer opheffen"</string>
+    <string msgid="2287665636817987623" name="activity_not_available">"Daarvoor is geen app beschikbaar op dit apparaat"</string>
+    <string msgid="6064812257482886526" name="addBlockedNumber">"Nummer toevoegen"</string>
+    <string msgid="9214012315201040129" name="add_2sec_pause">"Pauze van 2 seconden toevoegen"</string>
+    <string msgid="5547311613368004859" name="add_contact_not_available">"Geen app voor contacten beschikbaar"</string>
+    <string msgid="3360818652790319634" name="add_wait">"Wachten toevoegen"</string>
+    <string msgid="471370638298229686" name="all_contacts_empty">"Je hebt nog geen contacten"</string>
+    <string msgid="1515782853819374618" name="all_contacts_empty_add_contact_action">"Contact toevoegen"</string>
+    <string msgid="282340105563646876" name="alreadyBlocked">"<ns1:g id="NUMBER">%1$s</ns1:g> is al geblokkeerd."</string>
+    <string msgid="7762561155467201526" name="applicationLabel">"Telefoon"</string>
+    <string msgid="7760188925338078011" name="block_list">"Geblokkeerde nummers"</string>
+    <string msgid="4524854769790960179" name="block_number_confirmation_message_new_filtering">"Je ontvangt geen oproepen of sms\'jes meer van dit nummer."</string>
+    <string msgid="4511900601491718173" name="block_number_confirmation_message_no_vvm">"Oproepen van dit nummer worden geblokkeerd, maar de beller kan nog wel voicemails achterlaten."</string>
+    <string msgid="5655646611437082611" name="block_number_confirmation_message_vvm">"Oproepen van dit nummer worden geblokkeerd en voicemails worden automatisch verwijderd."</string>
+    <string msgid="6862219558186931304" name="block_number_confirmation_title">"<ns1:g id="NUMBER">%1$s</ns1:g> blokkeren?"</string>
+    <string msgid="223238617533822381" name="block_number_footer_message_no_vvm">"Oproepen van deze nummers worden geblokkeerd, maar de bellers kunnen nog wel voicemail achterlaten."</string>
+    <string msgid="5387302253765439712" name="block_number_footer_message_vvm">"Oproepen van deze nummers worden geblokkeerd en voicemails worden automatisch verwijderd."</string>
+    <string msgid="770551992296781873" name="block_number_ok">"BLOKKEREN"</string>
+    <string msgid="5409571607043872758" name="block_number_search_hint">"Voeg nummer toe of zoek contacten"</string>
+    <string msgid="591338370336724156" name="block_number_undo">"ONGEDAAN MAKEN"</string>
+    <string msgid="178821255125295473" name="blocked_call_settings_import_button">"Importeren"</string>
+    <string msgid="8640906226815125906" name="blocked_call_settings_import_description">"Je hebt via andere apps al aangegeven dat bepaalde bellers moeten worden doorgeschakeld naar de voicemail."</string>
+    <string msgid="6698986720875955935" name="blocked_call_settings_view_numbers_button">"Nummers bekijken"</string>
+    <string msgid="8912042441473014712" name="blocked_number_call_log_label">"Geblokkeerd"</string>
+    <string msgid="7755803249073401381" name="blocked_numbers_disabled_emergency_desc">"Oproepblokkering is uitgeschakeld omdat je in de afgelopen 48 uur contact met de noodhulpdiensten hebt opgenomen via deze telefoon. De functie wordt automatisch weer ingeschakeld nadat de periode van 48 uur is verstreken."</string>
+    <string msgid="7870947220238070418" name="blocked_numbers_disabled_emergency_header_label">"Oproepblokkering tijdelijk uitgeschakeld"</string>
+    <string msgid="5340227785196217938" name="callDetailTitle">"Gespreksgegevens"</string>
+    <string msgid="6061406028764382234" name="callDetailsDurationFormat">"<ns1:g id="MINUTES">%s</ns1:g> min. <ns1:g id="SECONDS">%s</ns1:g> sec."</string>
+    <string msgid="3988146235579303592" name="callDetailsShortDurationFormat">"<ns1:g id="SECONDS">%s</ns1:g> sec."</string>
+    <string msgid="3734413397291301223" name="callHistoryIconLabel">"Oproepgeschiedenis"</string>
+    <string msgid="5330772013626378526" name="call_blocking_disabled_notification_text">"Uitgeschakeld omdat een noodoproep is geplaatst."</string>
+    <string msgid="8185193413377920194" name="call_blocking_disabled_notification_title">"Oproepblokkering is 48 uur uitgeschakeld"</string>
+    <string msgid="3752717059699600861" name="call_detail_list_header">"Lijst met oproepen"</string>
+    <string msgid="1833359621896346955" name="call_details_delete">"Verwijderen"</string>
+    <string msgid="4392886850104795739" name="call_disambig_title">"Nummer kiezen"</string>
+    <string msgid="463690849042459842" name="call_log_action_call">"<ns1:g id="NAMEORNUMBER">^1</ns1:g> bellen"</string>
+    <string msgid="701345508704970622" name="call_log_action_details">"Oproepdetails"</string>
+    <string msgid="5679719296905285131" name="call_log_action_send_message">"Een bericht verzenden"</string>
+    <string msgid="7724301709041128296" name="call_log_action_video_call">"Videogesprek"</string>
+    <string msgid="7949633151371183580" name="call_log_activity_title">"Oproepgeschiedenis"</string>
+    <string msgid="8357417710416340920" name="call_log_all_empty">"Je oproepgeschiedenis is leeg"</string>
+    <string msgid="9093210119068366147" name="call_log_all_empty_action">"Bellen"</string>
+    <string msgid="3566738938889333307" name="call_log_all_title">"Alle"</string>
+    <string msgid="9072936797223284265" name="call_log_archive_voicemail">"Voicemail archiveren"</string>
+    <string msgid="4677609108288680411" name="call_log_delete_all">"Oproepgeschiedenis wissen"</string>
+    <string msgid="5769921959940709084" name="call_log_header_other">"Ouder"</string>
+    <string msgid="3225248682434212981" name="call_log_header_today">"Vandaag"</string>
+    <string msgid="9139172458834033092" name="call_log_header_yesterday">"Gisteren"</string>
+    <string msgid="2787722299753674684" name="call_log_incoming_header">"Alleen inkomende oproepen"</string>
+    <string msgid="7641933305703520787" name="call_log_item_count_and_date">"(<ns1:g id="COUNT">%1$d</ns1:g>) <ns1:g id="DATE">%2$s</ns1:g>"</string>
+    <string msgid="3927274175205520135" name="call_log_missed_empty">"Je hebt geen gemiste oproepen."</string>
+    <string msgid="8017148056610855956" name="call_log_missed_header">"Alleen gemiste oproepen"</string>
+    <string msgid="4541142293870638971" name="call_log_missed_title">"Gemist"</string>
+    <string msgid="761009180766735769" name="call_log_outgoing_header">"Alleen uitgaande oproepen"</string>
+    <string msgid="7272635349055945546" name="call_log_share_voicemail">"Voicemail delen"</string>
+    <string msgid="1283948488625129019" name="call_log_trash_voicemail">"Voicemail verwijderen"</string>
+    <string msgid="8373282986443543296" name="call_log_via_number">"via <ns1:g id="NUMBER">%1$s</ns1:g>"</string>
+    <string msgid="4394943791173578941" name="call_log_via_number_phone_account">"<ns1:g id="PHONEACCOUNT">%1$s</ns1:g> via <ns1:g id="NUMBER">%2$s</ns1:g>"</string>
+    <string msgid="8383585074222277550" name="call_log_voicemail_empty">"Je voicemail-inbox is leeg."</string>
+    <string msgid="3945407886667089173" name="call_log_voicemail_header">"Alleen oproepen met voicemail"</string>
+    <string msgid="940422274047025948" name="call_log_voicemail_title">"Voicemail"</string>
+    <string msgid="8941576511946492225" name="call_not_available">"Kan niet bellen omdat de Telefoon-app is uitgeschakeld."</string>
+    <string msgid="313434211353070209" name="call_settings_label">"Oproepen"</string>
+    <string msgid="7899552396101432827" name="clearCallLogConfirmation">"Hiermee worden alle oproepen uit je geschiedenis verwijderd"</string>
+    <string msgid="801753155679372984" name="clearCallLogConfirmation_title">"Oproepgeschiedenis wissen?"</string>
+    <string msgid="3372471156216306132" name="clearCallLogProgress_title">"Oproepgeschiedenis wissen…"</string>
+    <string msgid="5488620820563977329" name="contact_list_loading">"Laden..."</string>
+    <string msgid="2019777545923635266" name="contact_tooltip">"Tik op de afbeelding om alle nummers te bekijken of blijf de afbeelding aanraken om opnieuw te rangschikken"</string>
+    <string msgid="5652787482893879382" name="copy_transcript_text">"Transcriptie kopiëren"</string>
+    <string msgid="6081200053494414351" name="description_add_to_existing_contact_action">"<ns1:g id="NAMEORNUMBER">^1</ns1:g> toevoegen aan bestaand contact"</string>
+    <string msgid="3240093199107796792" name="description_blocked_number_list_delete">"Blokkeren van nummer opheffen"</string>
+    <string msgid="3443678121983852666" name="description_call">"<ns1:g id="NAME">%1$s</ns1:g> bellen"</string>
+    <string msgid="4000549004089776147" name="description_call_action">"<ns1:g id="NAMEORNUMBER">^1</ns1:g> bellen"</string>
+    <string msgid="3682561657090693134" name="description_call_log_call_action">"Bellen"</string>
+    <string msgid="651182125650429846" name="description_call_log_play_button">"Voicemail afspelen"</string>
+    <string msgid="118101684236996786" name="description_call_log_unheard_voicemail">"Niet-beluisterde voicemail"</string>
+    <string msgid="51229793651342809" name="description_contact_details">"Contactgegevens voor <ns1:g id="NAMEORNUMBER">%1$s</ns1:g>"</string>
+    <string msgid="818755978791008167" name="description_create_new_contact_action">"Contact maken voor <ns1:g id="NAMEORNUMBER">^1</ns1:g>"</string>
+    <string msgid="2433827152749491785" name="description_details_action">"Oproepgegevens voor <ns1:g id="NAMEORNUMBER">^1</ns1:g>"</string>
+    <string msgid="1274091017188142646" name="description_dial_button">"bellen"</string>
+    <string msgid="8760207516497016437" name="description_digits_edittext">"nummer om te bellen"</string>
+    <string msgid="7117665748428816544" name="description_incoming_answered_call">"Oproep beantwoord van <ns1:g id="NAMEORNUMBER">^1</ns1:g>, <ns1:g id="TYPEORLOCATION">^2</ns1:g>, <ns1:g id="TIMEOFCALL">^3</ns1:g>, <ns1:g id="PHONEACCOUNT">^4</ns1:g>."</string>
+    <string msgid="2381085098795943627" name="description_incoming_missed_call">"Oproep gemist van <ns1:g id="NAMEORNUMBER">^1</ns1:g>, <ns1:g id="TYPEORLOCATION">^2</ns1:g>, <ns1:g id="TIMEOFCALL">^3</ns1:g>, <ns1:g id="PHONEACCOUNT">^4</ns1:g>."</string>
+    <string msgid="1601505153694540074" name="description_num_calls">"<ns1:g id="NUMBEROFCALLS">%1$s</ns1:g> telefoongesprekken."</string>
+    <string msgid="6386364390619734734" name="description_outgoing_call">"Oproep naar <ns1:g id="NAMEORNUMBER">^1</ns1:g>, <ns1:g id="TYPEORLOCATION">^2</ns1:g>, <ns1:g id="TIMEOFCALL">^3</ns1:g>, <ns1:g id="PHONEACCOUNT">^4</ns1:g>."</string>
+    <string msgid="1767072759541443861" name="description_phone_account">"in <ns1:g id="PHONEACCOUNT">^1</ns1:g>"</string>
+    <string msgid="4509404274968530055" name="description_playback_seek">"Afspeelpositie zoeken"</string>
+    <string msgid="6008323900245707504" name="description_playback_speakerphone">"Luidsprekertelefoon in- of uitschakelen"</string>
+    <string msgid="5060732345522492292" name="description_playback_start_stop">"Afspelen starten of stoppen"</string>
+    <string msgid="3161652589401708284" name="description_rate_decrease">"Afspeelsnelheid verlagen"</string>
+    <string msgid="6324606574127052385" name="description_rate_increase">"Afspeelsnelheid verhogen"</string>
+    <string msgid="133974208364152610" name="description_read_voicemail">"Voicemail van <ns1:g id="NAMEORNUMBER">^1</ns1:g>, <ns1:g id="TYPEORLOCATION">^2</ns1:g>, <ns1:g id="TIMEOFCALL">^3</ns1:g>, <ns1:g id="PHONEACCOUNT">^4</ns1:g>."</string>
+    <string msgid="3660807558587384889" name="description_search_button">"zoeken"</string>
+    <string msgid="3118485319691414221" name="description_send_text_message">"Sms verzenden naar <ns1:g id="NAME">%1$s</ns1:g>"</string>
+    <string msgid="520539488194946012" name="description_start_voice_search">"Gesproken zoekopdracht"</string>
+    <string msgid="5826351827625665597" name="description_unread_voicemail">"Ongelezen voicemail van <ns1:g id="NAMEORNUMBER">^1</ns1:g>, <ns1:g id="TYPEORLOCATION">^2</ns1:g>, <ns1:g id="TIMEOFCALL">^3</ns1:g>, <ns1:g id="PHONEACCOUNT">^4</ns1:g>."</string>
+    <string msgid="3503311803959108316" name="description_via_number">"via <ns1:g id="NUMBER">%1$s</ns1:g>"</string>
+    <string msgid="5426866894799626474" name="description_via_number_phone_account">"op <ns1:g id="PHONEACCOUNT">%1$s</ns1:g>, via <ns1:g id="NUMBER">%2$s</ns1:g>"</string>
+    <string msgid="2933838090743214204" name="description_video_call">"Videogesprek."</string>
+    <string msgid="7386922428155062213" name="description_video_call_action">"Videogesprek <ns1:g id="NAMEORNUMBER">^1</ns1:g>."</string>
+    <string msgid="5205669345700598415" name="description_view_contact">"Contact <ns1:g id="NAME">%1$s</ns1:g> bekijken"</string>
+    <string msgid="8054891873788903063" name="description_voicemail_action">"Voicemail beluisteren van <ns1:g id="NAMEORNUMBER">^1</ns1:g>"</string>
+    <string msgid="2025472770630153436" name="description_voicemail_delete">"Voicemail van <ns1:g id="NAMEORNUMBER">^1</ns1:g> verwijderen"</string>
+    <string msgid="3905259748756919693" name="description_voicemail_pause">"Voicemail van <ns1:g id="NAMEORNUMBER">^1</ns1:g> onderbreken"</string>
+    <string msgid="2689369874037785439" name="description_voicemail_play">"Voicemail van <ns1:g id="NAMEORNUMBER">^1</ns1:g> afspelen"</string>
+    <string msgid="6500826552823403796" name="dialerIconLabel">"Telefoon"</string>
+    <string msgid="4205688819890074468" name="dialer_addAnotherCall">"Oproep toevoegen"</string>
+    <string msgid="3574350254520035364" name="dialer_hint_find_contact">"Contacten zoeken"</string>
+    <string msgid="3719386377550913067" name="dialer_returnToInCallScreen">"Terug naar actief gesprek"</string>
+    <string msgid="4305043242594150479" name="dialer_settings_label">"Instellingen"</string>
+    <string msgid="1707548397435075040" name="dialer_useDtmfDialpad">"Toetsen voor toonkiezen gebruiken"</string>
+    <string msgid="5730565540182492608" name="dialog_phone_call_prohibited_message">"Kan dit nummer niet bellen"</string>
+    <string msgid="530922773669546093" name="dialog_voicemail_airplane_mode_message">"Als je je voicemail wilt bellen, moet je eerst de Vliegtuigmodus uitschakelen."</string>
+    <string msgid="4384716252789515378" name="dialog_voicemail_not_ready_message">"Voor het instellen van voicemail, ga je naar \'Menu\' > \'Instellingen\'."</string>
+    <string msgid="7812852361055667468" name="display_options_title">"Weergaveopties"</string>
+    <string msgid="6571449695997521615" name="dtmf_tone_enable_title">"Tonen bij toetsaanslag"</string>
+    <string msgid="8581125689808919460" name="dtmf_tone_length_title">"Toonduur toetsenblok"</string>
+    <string msgid="5011234945140912047" name="favorite_hidden">"Verwijderd uit favorieten"</string>
+    <string msgid="2508998611039406474" name="favorite_hidden_undo">"Ongedaan maken"</string>
+    <string msgid="3045126336951684285" name="imei">"IMEI-nummer"</string>
+    <string msgid="1606601823746799926" name="import_send_to_voicemail_numbers_label">"Nummers importeren"</string>
+    <string msgid="619058581062192851" name="invalidNumber">"<ns1:g id="NUMBER">%1$s</ns1:g> is ongeldig."</string>
+    <string msgid="1129729740601172692" name="launcherActivityLabel">"Telefoon"</string>
+    <string msgid="3959809805046059167" name="launcherDialpadActivityLabel">"Telefoonkiezer"</string>
+    <string msgid="4571593167738725100" name="list_delimeter">", "</string>
+    <string msgid="5829291915305113983" name="make_primary">"Deze keuze onthouden"</string>
+    <string msgid="5959801428936629196" name="manage_blocked_numbers_label">"Oproepen blokkeren"</string>
+    <string msgid="6210568493746275750" name="meid">"MEID"</string>
+    <string msgid="6948308384034051670" name="menu_allContacts">"Alle contacten"</string>
+    <string msgid="997146291983360266" name="menu_callNumber">"<ns1:g id="NUMBER">%s</ns1:g> bellen"</string>
+    <string msgid="1209922412763274638" name="menu_newContact">"Nieuw contact"</string>
+    <string msgid="7560347482073345885" name="menu_show_all_calls">"Alle oproepen weergeven"</string>
+    <string msgid="7534206815238877417" name="menu_show_incoming_only">"Alleen inkomend weergeven"</string>
+    <string msgid="154473166059743996" name="menu_show_missed_only">"Alleen gemist weergeven"</string>
+    <string msgid="1965570298133301970" name="menu_show_outgoing_only">"Alleen uitgaand weergeven"</string>
+    <string msgid="1898421289561435703" name="menu_show_voicemails_only">"Alleen voicemails weergeven"</string>
+    <string msgid="3116140286537760629" name="migrate_blocked_numbers_dialog_allow_button">"Toestaan"</string>
+    <string msgid="5598530398682662860" name="migrate_blocked_numbers_dialog_message">"Telefoon moet het blokkeergedrag aanpassen om je beter te beschermen. Voor je geblokkeerde nummers worden nu zowel oproepen als sms\'jes geblokkeerd. Deze instelling kan worden gedeeld met andere apps."</string>
+    <string msgid="2039363199438872626" name="migrate_blocked_numbers_dialog_title">"Verbeterde blokkeerfunctie"</string>
+    <string msgid="6113133136977996863" name="notification_action_voicemail_play">"Afspelen"</string>
+    <string msgid="2078223183024451723" name="notification_missedCallTitle">"Gemiste oproep"</string>
+    <string msgid="1991552423738343203" name="notification_missedCall_call_back">"Terugbellen"</string>
+    <string msgid="3042123733754151052" name="notification_missedCall_message">"Bericht"</string>
+    <string msgid="158790423221579961" name="notification_missedCallsMsg">"<ns1:g id="NUM_MISSED_CALLS">%s</ns1:g> gemiste oproepen"</string>
+    <string msgid="4948840634672742797" name="notification_missedCallsTitle">"Gemiste oproepen"</string>
+    <string msgid="8418335304394771688" name="notification_missedWorkCallTitle">"Gemiste zakelijke oproep"</string>
+    <string msgid="895342132049452081" name="notification_new_voicemail_ticker">"Nieuwe voicemail van <ns1:g id="CALLER">%1$s</ns1:g>"</string>
+    <string msgid="1153954809339404149" name="notification_voicemail_callers_list">"<ns1:g id="NEWER_CALLERS">%1$s</ns1:g>, <ns1:g id="OLDER_CALLER">%2$s</ns1:g>"</string>
+    <string msgid="8081736535604293886" name="num_missed_calls">"<ns1:g id="NUMBER">%s</ns1:g> nieuwe gemiste oproepen"</string>
+    <string msgid="7726415831153618726" name="payphone">"Telefooncel"</string>
+    <string msgid="2426278457455950554" name="permission_multiple_turn_on">"Toestemmingen instellen"</string>
+    <string msgid="555711464287041043" name="permission_no_calllog">"Als je je gesprekkenlijst wilt bekijken, schakel je de machtiging voor Telefoon in."</string>
+    <string msgid="6237980143178936279" name="permission_no_contacts">"Als je je contacten wilt bekijken, schakel je de machtiging voor Contacten in."</string>
+    <string msgid="84152933267902056" name="permission_no_search">"Als je naar contacten wilt zoeken, schakel je de contacttoestemming in."</string>
+    <string msgid="6882563445996184051" name="permission_no_speeddial">"Als je de snelkeuzefunctie wilt inschakelen, schakel je de machtiging voor Contacten in."</string>
+    <string msgid="8306280257799917574" name="permission_no_voicemail">"Als je je voicemail wilt beluisteren, schakel je de machtiging voor Telefoon in."</string>
+    <string msgid="2101287782615887547" name="permission_place_call">"Als je iemand wilt bellen, schakel je de machtiging voor Telefoon in."</string>
+    <string msgid="1543391076065465464" name="permission_single_turn_on">"Inschakelen"</string>
+    <string msgid="5864322009841175294" name="phone_account_settings_label">"Oproepaccounts"</string>
+    <string msgid="6374339738119166953" name="private_num">"Privénummer"</string>
+    <string msgid="1080555335283662961" name="remove_contact">"Verwijderen"</string>
+    <string msgid="1318281521087951580" name="respond_via_sms_setting_title">"Snelle reacties"</string>
+    <string msgid="760362035635084653" name="ringtone_title">"Beltoon telefoon"</string>
+    <string msgid="4327842393369915751" name="search_shortcut_add_to_contact">"Toevoegen aan een contact"</string>
+    <string msgid="4787156645163436072" name="search_shortcut_block_number">"Nummer blokkeren"</string>
+    <string msgid="7277194656832895870" name="search_shortcut_call_number">"<ns1:g id="NUMBER">%s</ns1:g> bellen"</string>
+    <string msgid="1679917465521554093" name="search_shortcut_create_new_contact">"Nieuw contact maken"</string>
+    <string msgid="1265971685034465166" name="search_shortcut_make_video_call">"Videogesprek starten"</string>
+    <string msgid="2569304043345025525" name="search_shortcut_send_sms_message">"Sms verzenden"</string>
+    <string msgid="5547202002133560069" name="send_to_voicemail_import_failed">"Importeren mislukt"</string>
+    <string msgid="5520072531022614595" name="show_favorites_only">"Alleen favorieten weergeven"</string>
+    <string msgid="6700035985448642408" name="simContacts_emptyLoading">"Laden vanaf SIM-kaart..."</string>
+    <string msgid="27341688347689769" name="simContacts_title">"Contacten op SIM-kaart"</string>
+    <string msgid="5846266399240630846" name="sms_disambig_title">"Nummer kiezen"</string>
+    <string msgid="939830142765936021" name="snackbar_number_blocked">"<ns1:g id="NUMBER">%1$s</ns1:g> geblokkeerd"</string>
+    <string msgid="4854738171099045912" name="snackbar_number_unblocked">"Blokkering van <ns1:g id="NUMBER">%1$s</ns1:g> opgeheven"</string>
+    <string msgid="7442340403660554373" name="snackbar_voicemail_archived">"Voicemail gearchiveerd"</string>
+    <string msgid="9186182602955185448" name="snackbar_voicemail_archived_goto">"NAAR ARCHIEF"</string>
+    <string msgid="5098542835986188582" name="snackbar_voicemail_deleted">"Voicemail verwijderd"</string>
+    <string msgid="3741811385891289167" name="snackbar_voicemail_deleted_undo">"ONGED. MKN"</string>
+    <string msgid="1692290115642160845" name="sounds_and_vibration_title">"Geluiden en trillingen"</string>
+    <string msgid="8838921693673366129" name="speed_dial_empty">"Er staat nog niemand in je snelkeuzelijst"</string>
+    <string msgid="7944893641496695770" name="speed_dial_empty_add_favorite_action">"Een favoriet toevoegen"</string>
+    <string msgid="1410922767166533690" name="tab_all_contacts">"Contacten"</string>
+    <string msgid="2563144697322434940" name="tab_history">"Oproepgeschiedenis"</string>
+    <string msgid="7552166276545648893" name="tab_speed_dial">"Snelkeuze"</string>
+    <string msgid="155024725947496746" name="tab_voicemail">"Voicemail"</string>
+    <string msgid="6947041258280380832" name="toast_call_detail_error">"Details niet beschikbaar"</string>
+    <string msgid="5614246168296606709" name="toast_cannot_write_system_settings">"Telefoon-app heeft geen toestemming om systeeminstellingen te schrijven."</string>
+    <string msgid="8010830299576311534" name="toast_entry_removed">"Verwijderd uit oproepgeschiedenis"</string>
+    <string msgid="3521686227115330015" name="type_blocked">"Geblokkeerde oproep"</string>
+    <string msgid="6502076603836088532" name="type_incoming">"Inkomende oproep"</string>
+    <string msgid="82323391702796181" name="type_incoming_video">"Binnenkomend videogesprek"</string>
+    <string msgid="2720502601640509542" name="type_missed">"Oproep gemist"</string>
+    <string msgid="954396897034220545" name="type_missed_video">"Gemist videogesprek"</string>
+    <string msgid="343108709599392641" name="type_outgoing">"Uitgaand gesprek"</string>
+    <string msgid="2858140021680755266" name="type_outgoing_video">"Uitgaand videogesprek"</string>
+    <string msgid="7783201828312472691" name="type_rejected">"Geweigerde oproep"</string>
+    <string msgid="5153139450668549908" name="type_voicemail">"Voicemail"</string>
+    <string msgid="252824779504084354" name="unblock_number_confirmation_title">"Blokkering van <ns1:g id="NUMBER">%1$s</ns1:g> opheffen?"</string>
+    <string msgid="6449899182699684786" name="unblock_number_ok">"BLOKKERING OPHEFFEN"</string>
+    <string msgid="740067747858270469" name="unknown">"Onbekend"</string>
+    <string msgid="6652512551977445095" name="userCallActivityLabel" product="default">"Telefoon"</string>
+    <string msgid="3362916460327555241" name="vibrate_on_ring_title">"Ook trillen voor oproepen"</string>
+    <string msgid="8090338793118794741" name="visual_voicemail_settings">"Instellingen"</string>
+    <string msgid="164967285234132509" name="visual_voicemail_text">"Bekijk en beluister je voicemail, zonder dat je een nummer hoeft te bellen. Er kunnen kosten voor gegevensgebruik in rekening worden gebracht."</string>
+    <string msgid="4574199312906348905" name="visual_voicemail_title">"Visuele voicemail"</string>
+    <string msgid="2977719040254285301" name="voice_search_not_available">"Gesproken zoekopdracht niet beschikbaar"</string>
+    <string msgid="3851469869202611441" name="voicemail">"Voicemail"</string>
+    <string msgid="4388070029056487713" name="voicemailCallLogDateTimeFormat">"<ns1:g id="DATE">%1$s</ns1:g> om <ns1:g id="TIME">%2$s</ns1:g>"</string>
+    <string msgid="5118563814451588397" name="voicemailCallLogDateTimeFormatWithDuration">"<ns1:g id="DATEANDTIME">%1$s</ns1:g> • <ns1:g id="DURATION">%2$s</ns1:g>"</string>
+    <string msgid="228211252076289564" name="voicemailDurationFormat">"<ns1:g id="MINUTES">%1$02d</ns1:g>:<ns1:g id="SECONDS">%2$02d</ns1:g>"</string>
+    <string msgid="2638669189424535229" name="voicemail_archive_activity_title">"Voicemailarchief"</string>
+    <string msgid="1087408796679056787" name="voicemail_archive_empty">"Je voicemailarchief is leeg."</string>
+    <string msgid="6263467962738772223" name="voicemail_archive_failed">"Kan voicemail niet archiveren."</string>
+    <string msgid="722322091690281157" name="voicemail_archiving_content">"Voicemail archiveren…"</string>
+    <string msgid="1287895365599580842" name="voicemail_fetching_content">"Voicemail laden…"</string>
+    <string msgid="3959428065511972176" name="voicemail_fetching_timout">"Kan voicemail niet laden"</string>
+    <string msgid="3444751008615323006" name="voicemail_play_faster">"Sneller afspelen."</string>
+    <string msgid="4544796503902818832" name="voicemail_play_slower">"Langzamer afspelen."</string>
+    <string msgid="3687447935787768983" name="voicemail_play_start_pause">"Afspelen starten of onderbreken."</string>
+    <string msgid="3356071912353297599" name="voicemail_playback_error">"Kan voicemail niet afspelen"</string>
+    <string msgid="7390530056413093958" name="voicemail_speaker_off">"Luidspreker uitschakelen."</string>
+    <string msgid="209154030283487068" name="voicemail_speaker_on">"Luidspreker inschakelen."</string>
+    <string msgid="1824816252288551794" name="voicemail_status_action_call_server">"Bellen met voicemail"</string>
+    <string msgid="8671796489912239589" name="voicemail_status_action_configure">"Instellen"</string>
+    <string msgid="2449801102560158082" name="voicemail_status_audio_not_available">"Audio niet beschikbaar"</string>
+    <string msgid="8300808991932816153" name="voicemail_status_configure_voicemail">"Je voicemail instellen"</string>
+    <string msgid="6329544650250068650" name="voicemail_status_messages_waiting">"Je hebt nieuwe voicemail. Kan nu niet laden."</string>
+    <string msgid="5222480147701456390" name="voicemail_status_voicemail_not_available">"Voicemailupdates niet beschikbaar"</string>
+</resources>

@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="dtmf_tone_length_entries">
+      <item>Normal</item>
+      <item>Long</item>
+    </string-array>
+    <string-array name="dtmf_tone_length_entry_values" translatable="false">
+       <item>0</item>
+       <item>1</item>
+    </string-array>
+    <bool name="config_enable_dialer_key_vibration">true</bool>
+    <bool name="config_show_onscreen_dial_button">true</bool>
+    <color name="actionbar_icon_color">#ffffff</color>
+    <color name="add_blocked_number_icon_color">#bdbdbd</color>
+    <color name="answered_call">@color/dialer_green_highlight_color</color>
+    <color name="background_dialer_call_log">@color/background_dialer_light</color>
+    <color name="background_dialer_call_log_list_item">@color/background_dialer_white</color>
+    <color name="background_dialer_light">#fafafa</color>
+    <color name="background_dialer_results">#f9f9f9</color>
+    <color name="background_dialer_white">#ffffff</color>
+    <color name="blocked_call">@color/dialtacts_secondary_text_color</color>
+    <color name="blocked_contact_background">@android:color/holo_red_dark</color>
+    <color name="blocked_number_accent_color">#42A5F5</color>
+    <color name="blocked_number_background">#FFFFFF</color>
+    <color name="blocked_number_block_color">#F44336</color>
+    <color name="blocked_number_disabled_emergency_background_color">#E0E0E0</color>
+    <color name="blocked_number_disabled_emergency_header_color">#616161</color>
+    <color name="blocked_number_header_color">@color/dialer_theme_color</color>
+    <color name="blocked_number_icon_tint">#616161</color>
+    <color name="blocked_number_primary_text_color">@color/dialtacts_primary_text_color</color>
+    <color name="blocked_number_secondary_text_color">@color/dialtacts_secondary_text_color</color>
+    <color name="call_detail_footer_icon_tint">@color/call_detail_footer_text_color</color>
+    <color name="call_detail_footer_text_color">#616161</color>
+    <color name="call_log_action_color">#b3000000</color>
+    <color name="call_log_action_divider">#eeeeee</color>
+    <color name="call_log_action_text">@color/dialer_theme_color</color>
+    <color name="call_log_day_group_heading_color">#8a000000</color>
+    <color name="call_log_detail_color">#8a000000</color>
+    <color name="call_log_icon_tint">#8a000000</color>
+    <color name="call_log_list_item_primary_action_icon_tint">@color/call_log_icon_tint</color>
+    <color name="call_log_missed_call_highlight_color">@color/dialer_red_highlight_color</color>
+    <color name="call_log_primary_color">#de000000</color>
+    <color name="call_log_unread_text_color">#de000000</color>
+    <color name="call_log_voicemail_highlight_color">#33b5e5</color>
+    <color name="call_log_voicemail_transcript_color">#de000000</color>
+    <color name="contact_list_name_text_color">@color/dialtacts_primary_text_color</color>
+    <color name="contact_tile_name_color">#ffffff</color>
+    <color name="contacts_grid_bottom_border_color">#16000000</color>
+    <color name="dialer_button_text_color">#fff</color>
+    <color name="dialer_dialpad_touch_tint">#330288d1</color>
+    <color name="dialer_flat_button_text_color">@color/dialer_theme_color</color>
+    <color name="dialer_green_highlight_color">#00c853</color>
+    <color name="dialer_red_highlight_color">#ff1744</color>
+    <color name="dialer_snackbar_action_text_color">@color/dialer_theme_color</color>
+    <color name="dialtacts_primary_text_color">#333333</color>
+    <color name="dialtacts_secondary_text_color">#636363</color>
+    <color name="divider_line_color">#D8D8D8</color>
+    <color name="empty_list_text_color">#b2b2b2</color>
+    <color name="favorite_contacts_separator_color">#d0d0d0</color>
+    <color name="floating_action_button_touch_tint">#80ffffff</color>
+    <color name="item_selected">#660099cc</color>
+    <color name="missed_call">#ff2e58</color>
+    <color name="promo_card_text">#ffffff</color>
+    <color name="remove_highlighted_text_color">#FF3F3B</color>
+    <color name="remove_text_color">#ffffff</color>
+    <color name="searchbox_icon_tint">#a4a4a4</color>
+    <color name="setting_background_color">#ffffff</color>
+    <color name="setting_button_color">#eee</color>
+    <color name="setting_disabled_color">#aaaaaa</color>
+    <color name="setting_primary_color">@color/dialtacts_primary_text_color</color>
+    <color name="setting_secondary_color">@color/dialtacts_secondary_text_color</color>
+    <color name="undo_dialogue_text_color">#4d4d4d</color>
+    <color name="visual_voicemail_promo_card_background">#673ab7</color>
+    <color name="visual_voicemail_promo_card_divider">#7d57c1</color>
+    <color name="voicemail_icon_disabled_tint">#80000000</color>
+    <color name="voicemail_icon_tint">@color/call_log_icon_tint</color>
+    <color name="voicemail_playback_seek_bar_already_played">@color/dialer_theme_color</color>
+    <color name="voicemail_playback_seek_bar_yet_to_play">#cecece</color>
+    <color name="voicemail_playpause_icon_tint">@color/dialer_theme_color</color>
+    <declare-styleable name="CallLog"><attr format="color" name="call_log_primary_text_color"/><attr format="color" name="call_log_primary_background_color"/><attr format="color" name="call_log_secondary_text_color"/><attr format="color" name="call_log_secondary_background_color"/><attr format="color" name="call_log_header_color"/></declare-styleable>
+    <declare-styleable name="SearchEditTextLayout"/>
+    <declare-styleable name="VoicemailStatus"><attr format="dimension" name="call_log_voicemail_status_height"/><attr format="color" name="call_log_voicemail_status_background_color"/><attr format="color" name="call_log_voicemail_status_text_color"/><attr format="color" name="call_log_voicemail_status_action_text_color"/></declare-styleable>
+    <dimen name="action_bar_elevation">3dp</dimen>
+    <dimen name="action_bar_height">56dp</dimen>
+    <dimen name="action_bar_height_large">64dp</dimen>
+    <dimen name="actionbar_and_tab_height">107dp</dimen>
+    <dimen name="actionbar_contentInsetStart">72dp</dimen>
+    <dimen name="blocked_number_add_bottom_margin">8dp</dimen>
+    <dimen name="blocked_number_add_top_margin">8dp</dimen>
+    <dimen name="blocked_number_bottom_margin">16dp</dimen>
+    <dimen name="blocked_number_container_padding">16dp</dimen>
+    <dimen name="blocked_number_delete_icon_size">32dp</dimen>
+    <dimen name="blocked_number_header_height">48dp</dimen>
+    <dimen name="blocked_number_horizontal_margin">16dp</dimen>
+    <dimen name="blocked_number_primary_text_size">16sp</dimen>
+    <dimen name="blocked_number_search_text_size">14sp</dimen>
+    <dimen name="blocked_number_secondary_text_size">12sp</dimen>
+    <dimen name="blocked_number_settings_description_text_size">14sp</dimen>
+    <dimen name="blocked_number_top_margin">16dp</dimen>
+    <dimen name="button_horizontal_padding">16dp</dimen>
+    <dimen name="call_button_height">74dp</dimen>
+    <dimen name="call_detail_action_item_drawable_padding">28dp</dimen>
+    <dimen name="call_detail_action_item_padding_horizontal">28dp</dimen>
+    <dimen name="call_detail_action_item_padding_vertical">16dp</dimen>
+    <dimen name="call_detail_action_item_text_size">16sp</dimen>
+    <dimen name="call_detail_bottom_margin">16dp</dimen>
+    <dimen name="call_detail_button_spacing">2dip</dimen>
+    <dimen name="call_detail_elevation">0.5dp</dimen>
+    <dimen name="call_detail_header_bottom_margin">9dp</dimen>
+    <dimen name="call_detail_header_top_margin">20dp</dimen>
+    <dimen name="call_detail_horizontal_margin">20dp</dimen>
+    <dimen name="call_detail_top_margin">16dp</dimen>
+    <dimen name="call_log_action_height">48dp</dimen>
+    <dimen name="call_log_action_horizontal_padding">24dp</dimen>
+    <dimen name="call_log_action_icon_dimen">24dp</dimen>
+    <dimen name="call_log_action_icon_margin_start">16dp</dimen>
+    <dimen name="call_log_actions_bottom_padding">8dp</dimen>
+    <dimen name="call_log_actions_left_padding">64dp</dimen>
+    <dimen name="call_log_actions_top_padding">8dp</dimen>
+    <dimen name="call_log_call_account_margin_bottom">2dp</dimen>
+    <dimen name="call_log_call_action_size">32dp</dimen>
+    <dimen name="call_log_call_action_width">54dp</dimen>
+    <dimen name="call_log_day_group_heading_size">14sp</dimen>
+    <dimen name="call_log_day_group_padding_bottom">9dp</dimen>
+    <dimen name="call_log_day_group_padding_top">15dp</dimen>
+    <dimen name="call_log_detail_text_size">12sp</dimen>
+    <dimen name="call_log_horizontal_margin">8dp</dimen>
+    <dimen name="call_log_icon_margin">4dp</dimen>
+    <dimen name="call_log_indent_margin">24dp</dimen>
+    <dimen name="call_log_inner_margin">13dp</dimen>
+    <dimen name="call_log_list_item_height">56dp</dimen>
+    <dimen name="call_log_list_item_info_margin_start">16dp</dimen>
+    <dimen name="call_log_list_item_primary_action_dimen">36dp</dimen>
+    <dimen name="call_log_name_margin_bottom">2dp</dimen>
+    <dimen name="call_log_outer_margin">8dp</dimen>
+    <dimen name="call_log_primary_text_size">16sp</dimen>
+    <dimen name="call_log_start_margin">8dp</dimen>
+    <dimen name="call_log_vertical_padding">12dp</dimen>
+    <dimen name="call_log_voicemail_transcription_text_size">14sp</dimen>
+    <dimen name="call_provider_small_icon_size">12dp</dimen>
+    <dimen name="call_type_icon_size">12dp</dimen>
+    <dimen name="contact_photo_size">40dp</dimen>
+    <dimen name="contact_tile_divider_width">1dp</dimen>
+    <item name="contact_tile_height_to_width_ratio" type="dimen">76%</item>
+    <dimen name="contact_tile_info_button_height_and_width">36dp</dimen>
+    <dimen name="contact_tile_text_bottom_padding">9dp</dimen>
+    <dimen name="contact_tile_text_side_padding">12dp</dimen>
+    <dimen name="dismiss_button_padding_end">28dip</dimen>
+    <dimen name="dismiss_button_padding_start">20dip</dimen>
+    <dimen name="divider_line_thickness">1dp</dimen>
+    <dimen name="empty_list_message_text_size">16sp</dimen>
+    <dimen name="empty_list_message_top_padding">20dp</dimen>
+    <dimen name="favorites_row_bottom_padding">0dp</dimen>
+    <dimen name="favorites_row_end_padding">0dp</dimen>
+    <dimen name="favorites_row_start_padding">1dp</dimen>
+    <dimen name="favorites_row_top_padding">2dp</dimen>
+    <dimen name="favorites_row_undo_text_side_padding">32dp</dimen>
+    <dimen name="favorites_star_icon_size">12dp</dimen>
+    <dimen name="icon_padding">8dp</dimen>
+    <dimen name="min_lock">20dip</dimen>
+    <dimen name="min_swipe">0dip</dimen>
+    <dimen name="min_vert">10dip</dimen>
+    <dimen name="preference_padding_bottom">16dp</dimen>
+    <dimen name="preference_padding_top">16dp</dimen>
+    <dimen name="preference_side_margin">16dp</dimen>
+    <dimen name="preference_summary_line_spacing_extra">4dp</dimen>
+    <dimen name="promo_card_action_between_padding">11dp</dimen>
+    <dimen name="promo_card_action_end_padding">4dp</dimen>
+    <dimen name="promo_card_action_vertical_padding">4dp</dimen>
+    <dimen name="promo_card_icon_size">24dp</dimen>
+    <dimen name="promo_card_line_spacing">4dp</dimen>
+    <dimen name="promo_card_main_padding">24dp</dimen>
+    <dimen name="promo_card_start_padding">16dp</dimen>
+    <dimen name="promo_card_title_padding">12dp</dimen>
+    <dimen name="promo_card_top_padding">21dp</dimen>
+    <dimen name="remove_text_size">16dp</dimen>
+    <dimen name="search_bottom_margin">8dp</dimen>
+    <dimen name="search_box_collapsed_text_margin_left">22dp</dimen>
+    <dimen name="search_box_elevation">3dp</dimen>
+    <dimen name="search_box_left_padding">8dp</dimen>
+    <dimen name="search_box_right_padding">8dp</dimen>
+    <dimen name="search_box_search_icon_padding">2dp</dimen>
+    <dimen name="search_collapsed_text_size">14sp</dimen>
+    <dimen name="search_list_padding_top">16dp</dimen>
+    <dimen name="search_margin_horizontal">8dp</dimen>
+    <dimen name="search_top_margin">8dp</dimen>
+    <dimen name="shadow_length">10dp</dimen>
+    <dimen name="show_call_history_list_item_height">72dp</dimen>
+    <dimen name="tab_height">43dp</dimen>
+    <dimen name="tab_unread_count_margin_left">0dp</dimen>
+    <dimen name="transcription_bottom_margin">18dp</dimen>
+    <dimen name="transcription_top_margin">18dp</dimen>
+    <dimen name="voicemail_playback_top_padding">12dp</dimen>
+    <item name="block_id" type="id"/>
+    <item name="call_detail_delete_menu_item" type="id"/>
+    <item name="context_menu_block_number" type="id"/>
+    <item name="context_menu_copy_to_clipboard" type="id"/>
+    <item name="context_menu_copy_transcript_to_clipboard" type="id"/>
+    <item name="context_menu_edit_before_call" type="id"/>
+    <item name="settings_header_sounds_and_vibration" type="id"/>
+    <integer name="escape_animation_duration">200</integer>
+    <integer name="fade_duration">300</integer>
+    <integer name="max_dismiss_velocity">2000</integer>
+    <integer name="max_escape_animation_duration">400</integer>
+    <integer name="snap_animation_duration">350</integer>
+    <integer name="swipe_escape_velocity">100</integer>
+    <integer name="swipe_scroll_slop">2</integer>
+    <plurals name="description_voicemail_unread">
+        <item quantity="one"><ns1:g id="count">%d</ns1:g> new voicemail</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> new voicemails</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="one">Voicemail</item>
+        <item quantity="other">
+            <ns1:g id="count">%1$d</ns1:g>
+            Voicemails
+        </item>
+    </plurals>
+    <string name="accessibility_call_is_active"><ns1:g id="nameOrNumber">^1</ns1:g> is active</string>
+    <string name="accessibility_settings_title">Accessibility</string>
+    <string name="actionIncomingCall">Incoming calls</string>
+    <string name="action_block_number">Block number</string>
+    <string name="action_copy_number_text">Copy number</string>
+    <string name="action_edit_number_before_call">Edit number before call</string>
+    <string name="action_menu_call_history_description">Call History</string>
+    <string name="action_menu_dialpad_button">dial pad</string>
+    <string msgid="2295659037509008453" name="action_menu_overflow_description">More options</string>
+    <string name="action_report_number">Report inaccurate number</string>
+    <string name="action_unblock_number">Unblock number</string>
+    <string name="activity_not_available">No app for that on this device</string>
+    <string name="addBlockedNumber">Add number</string>
+    <string name="add_2sec_pause">Add 2-sec pause</string>
+    <string name="add_contact_not_available">No contacts app available</string>
+    <string name="add_wait">Add wait</string>
+    <string name="all_contacts_empty">You don\'t have any contacts yet</string>
+    <string name="all_contacts_empty_add_contact_action">Add a contact</string>
+    <string name="alreadyBlocked"><ns1:g example="(555) 555-5555" id="number">%1$s</ns1:g>
+        is already blocked.</string>
+    <string name="applicationLabel">Phone</string>
+    <string name="block_list">Blocked numbers</string>
+    <string name="block_number_confirmation_message_new_filtering">
+        You will no longer receive calls or texts from this number.
+    </string>
+    <string name="block_number_confirmation_message_no_vvm">
+        Calls from this number will be blocked, but the caller may still be able to leave you voicemails.
+    </string>
+    <string name="block_number_confirmation_message_vvm">
+        Calls from this number will be blocked and voicemails will be automatically deleted.
+    </string>
+    <string name="block_number_confirmation_title">Block
+        <ns1:g example="(555) 555-5555" id="number">%1$s</ns1:g>?</string>
+    <string name="block_number_footer_message_no_vvm">
+         Calls from these numbers will be blocked, but they may still be able to leave you voicemails.
+    </string>
+    <string name="block_number_footer_message_vvm">
+        Calls from these numbers will be blocked and voicemails will be automatically deleted.
+    </string>
+    <string name="block_number_ok">BLOCK</string>
+    <string name="block_number_search_hint">Add number or search contacts</string>
+    <string name="block_number_undo">UNDO</string>
+    <string name="blocked_call_settings_import_button">Import</string>
+    <string name="blocked_call_settings_import_description">
+        You previously marked some callers to be automatically sent to voicemail via other apps.
+    </string>
+    <string name="blocked_call_settings_view_numbers_button">View Numbers</string>
+    <string name="blocked_number_call_log_label">Blocked</string>
+    <string name="blocked_numbers_disabled_emergency_desc">
+        Call blocking has been disabled because you contacted emergency services from this phone
+        within the last 48 hours. It will be automatically reenabled once the 48 hour period
+        expires.
+    </string>
+    <string name="blocked_numbers_disabled_emergency_header_label">
+        Call blocking temporarily off
+    </string>
+    <string name="callDetailTitle">Call details</string>
+    <string name="callDetailsDurationFormat"><ns1:g example="42" id="minutes">%s</ns1:g> min <ns1:g example="28" id="seconds">%s</ns1:g> sec</string>
+    <string name="callDetailsShortDurationFormat"><ns1:g example="28" id="seconds">%s</ns1:g> sec</string>
+    <string name="callHistoryIconLabel">Call history</string>
+    <string name="call_blocking_disabled_notification_text">
+        Disabled because an emergency call was made.
+    </string>
+    <string name="call_blocking_disabled_notification_title">
+        Call blocking disabled for 48 hours
+    </string>
+    <string name="call_detail_list_header">Calls list</string>
+    <string name="call_details_delete">Delete</string>
+    <string name="call_disambig_title">Choose number</string>
+    <string name="call_log_action_call">
+        Call <ns1:g example="John Smith" id="nameOrNumber">^1</ns1:g>
+    </string>
+    <string name="call_log_action_details">Call details</string>
+    <string name="call_log_action_send_message">Send a message</string>
+    <string name="call_log_action_video_call">Video call</string>
+    <string name="call_log_activity_title">Call History</string>
+    <string name="call_log_activity_title_font_family">sans-serif-light</string>
+    <string name="call_log_all_empty">Your call history is empty</string>
+    <string name="call_log_all_empty_action">Make a call</string>
+    <string name="call_log_all_title">All</string>
+    <string name="call_log_archive_voicemail">Archive voicemail</string>
+    <string name="call_log_delete_all">Clear call history</string>
+    <string name="call_log_header_other">Older</string>
+    <string name="call_log_header_today">Today</string>
+    <string name="call_log_header_yesterday">Yesterday</string>
+    <string name="call_log_incoming_header">Incoming calls only</string>
+    <string name="call_log_item_count_and_date">(<ns1:g id="count">%1$d</ns1:g>)
+        <ns1:g id="date">%2$s</ns1:g>
+    </string>
+    <string name="call_log_missed_empty">You have no missed calls.</string>
+    <string name="call_log_missed_header">Missed calls only</string>
+    <string name="call_log_missed_title">Missed</string>
+    <string name="call_log_outgoing_header">Outgoing calls only</string>
+    <string name="call_log_share_voicemail">Share voicemail</string>
+    <string name="call_log_trash_voicemail">Delete voicemail</string>
+    <string name="call_log_via_number">via <ns1:g example="(555) 555-5555" id="number">%1$s</ns1:g></string>
+    <string name="call_log_via_number_phone_account"><ns1:g example="SIM 1" id="phoneAccount">%1$s</ns1:g> via <ns1:g example="(555) 555-5555" id="number">%2$s</ns1:g></string>
+    <string name="call_log_voicemail_empty">Your voicemail inbox is empty.</string>
+    <string name="call_log_voicemail_header">Calls with voicemail only</string>
+    <string name="call_log_voicemail_title">Voicemail</string>
+    <string name="call_not_available">Cannot make a phone call because the Phone application has been disabled.</string>
+    <string name="call_settings_label">Calls</string>
+    <string name="clearCallLogConfirmation">This will delete all calls from your history</string>
+    <string name="clearCallLogConfirmation_title">Clear call history?</string>
+    <string name="clearCallLogProgress_title">Clearing call history\u2026</string>
+    <string name="config_prohibited_phone_number_regexp"/>
+    <string name="contact_list_loading">Loading\u2026</string>
+    <string name="contact_tooltip">Touch image to see all numbers or touch &amp; hold to reorder</string>
+    <string name="contacts_file_provider_authority">com.android.dialer.files</string>
+    <string name="copy_transcript_text">Copy transcription</string>
+    <string name="description_add_to_existing_contact_action">
+        Add <ns1:g example="John Smith" id="nameOrNumber">^1</ns1:g> to existing contact
+    </string>
+    <string name="description_blocked_number_list_delete">Unblock number</string>
+    <string name="description_call">Call <ns1:g id="name">%1$s</ns1:g></string>
+    <string name="description_call_action">
+        Call <ns1:g example="John Smith" id="nameOrNumber">^1</ns1:g>
+    </string>
+    <string name="description_call_log_call_action">Call</string>
+    <string name="description_call_log_play_button">Play voicemail</string>
+    <string name="description_call_log_unheard_voicemail">Unheard voicemail</string>
+    <string name="description_contact_details">Contact details for <ns1:g id="nameOrNumber">%1$s</ns1:g></string>
+    <string name="description_create_new_contact_action">
+        Create contact for <ns1:g example="John Smith" id="nameOrNumber">^1</ns1:g>
+    </string>
+    <string name="description_details_action">
+        Call details for <ns1:g example="John Smith" id="nameOrNumber">^1</ns1:g>
+    </string>
+    <string name="description_dial_button">dial</string>
+    <string name="description_digits_edittext">number to dial</string>
+    <string name="description_incoming_answered_call">Answered call from <ns1:g example="John Smith" id="nameOrNumber">^1</ns1:g>, <ns1:g example="Mobile" id="typeOrLocation">^2</ns1:g>, <ns1:g example="2 min ago" id="timeOfCall">^3</ns1:g>, <ns1:g example="on SIM 1" id="phoneAccount">^4</ns1:g>.</string>
+    <string name="description_incoming_missed_call">Missed call from <ns1:g example="John Smith" id="nameOrNumber">^1</ns1:g>, <ns1:g example="Mobile" id="typeOrLocation">^2</ns1:g>, <ns1:g example="2 min ago" id="timeOfCall">^3</ns1:g>, <ns1:g example="on SIM 1" id="phoneAccount">^4</ns1:g>.</string>
+    <string name="description_num_calls"><ns1:g id="numberOfCalls">%1$s</ns1:g> calls.</string>
+    <string name="description_outgoing_call">Call to <ns1:g example="John Smith" id="nameOrNumber">^1</ns1:g>, <ns1:g example="Mobile" id="typeOrLocation">^2</ns1:g>, <ns1:g example="2 min ago" id="timeOfCall">^3</ns1:g>, <ns1:g example="on SIM 1" id="phoneAccount">^4</ns1:g>.</string>
+    <string name="description_phone_account">on <ns1:g example="SIM 1" id="phoneAccount">^1</ns1:g></string>
+    <string name="description_playback_seek">Seek playback position</string>
+    <string name="description_playback_speakerphone">Switch on or off speakerphone</string>
+    <string name="description_playback_start_stop">Play or stop playback</string>
+    <string name="description_rate_decrease">Decrease playback rate</string>
+    <string name="description_rate_increase">Increase playback rate</string>
+    <string name="description_read_voicemail">Voicemail from <ns1:g example="John Smith" id="nameOrNumber">^1</ns1:g>, <ns1:g example="Mobile" id="typeOrLocation">^2</ns1:g>, <ns1:g example="2 min ago" id="timeOfCall">^3</ns1:g>, <ns1:g example="on SIM 1" id="phoneAccount">^4</ns1:g>.</string>
+    <string name="description_search_button">search</string>
+    <string name="description_send_text_message">Send SMS to <ns1:g id="name">%1$s</ns1:g></string>
+    <string name="description_start_voice_search">Start voice search</string>
+    <string name="description_unread_voicemail">Unread voicemail from <ns1:g example="John Smith" id="nameOrNumber">^1</ns1:g>, <ns1:g example="Mobile" id="typeOrLocation">^2</ns1:g>, <ns1:g example="2 min ago" id="timeOfCall">^3</ns1:g>, <ns1:g example="on SIM 1" id="phoneAccount">^4</ns1:g>.</string>
+    <string name="description_via_number">via <ns1:g example="(555) 555-5555" id="number">%1$s</ns1:g></string>
+    <string name="description_via_number_phone_account">on <ns1:g example="SIM 1" id="phoneAccount">%1$s</ns1:g>, via <ns1:g example="(555) 555-5555" id="number">%2$s</ns1:g></string>
+    <string name="description_video_call">Video call.</string>
+    <string name="description_video_call_action">
+        Video call <ns1:g example="John Smith" id="nameOrNumber">^1</ns1:g>.
+    </string>
+    <string name="description_view_contact">View contact <ns1:g id="name">%1$s</ns1:g></string>
+    <string name="description_voicemail_action">
+        Listen to voicemail from <ns1:g example="John Smith" id="nameOrNumber">^1</ns1:g>
+    </string>
+    <string name="description_voicemail_delete">
+        Delete voicemail from <ns1:g example="John Smith" id="nameOrNumber">^1</ns1:g>
+    </string>
+    <string name="description_voicemail_pause">
+        Pause voicemail from <ns1:g example="John Smith" id="nameOrNumber">^1</ns1:g>
+    </string>
+    <string name="description_voicemail_play">
+        Play voicemail from <ns1:g example="John Smith" id="nameOrNumber">^1</ns1:g>
+    </string>
+    <string name="dialerIconLabel">Phone</string>
+    <string name="dialer_addAnotherCall">Add call</string>
+    <string name="dialer_hint_find_contact">Search contacts</string>
+    <string name="dialer_returnToInCallScreen">Return to call in progress</string>
+    <string name="dialer_settings_label">Settings</string>
+    <string name="dialer_useDtmfDialpad">Use touch tone keypad</string>
+    <string msgid="4313552620858880999" name="dialog_phone_call_prohibited_message">Can\'t call this number</string>
+    <string name="dialog_voicemail_airplane_mode_message">To call voicemail, first turn off Airplane mode.</string>
+    <string name="dialog_voicemail_not_ready_message">To set up voicemail, go to Menu > Settings.</string>
+    <string name="display_options_title">Display options</string>
+    <string name="dtmf_tone_enable_title">Dialpad tones</string>
+    <string name="dtmf_tone_length_preference_key" translatable="false">button_dtmf_settings</string>
+    <string name="dtmf_tone_length_title">Dialpad tone length</string>
+    <string name="favorite_hidden">Removed from favorites</string>
+    <string name="favorite_hidden_undo">Undo</string>
+    <string name="handle_restricted">RESTRICTED</string>
+    <string name="imei">IMEI</string>
+    <string name="import_send_to_voicemail_numbers_label">Import numbers</string>
+    <string name="invalidNumber"><ns1:g example="(555) 555-5555" id="number">%1$s</ns1:g>
+        is invalid.</string>
+    <string name="launcherActivityLabel">Phone</string>
+    <string name="launcherDialpadActivityLabel">Phone Dialpad</string>
+    <string name="list_delimeter">", "</string>
+    <string name="make_primary">Remember this choice</string>
+    <string name="manage_blocked_numbers_label">Call blocking</string>
+    <string name="meid">MEID</string>
+    <string name="menu_allContacts">All contacts</string>
+    <string name="menu_callNumber">Call <ns1:g id="number">%s</ns1:g></string>
+    <string name="menu_newContact">New contact</string>
+    <string name="menu_show_all_calls">Show all calls</string>
+    <string name="menu_show_incoming_only">Show incoming only</string>
+    <string name="menu_show_missed_only">Show missed only</string>
+    <string name="menu_show_outgoing_only">Show outgoing only</string>
+    <string name="menu_show_voicemails_only">Show voicemails only</string>
+    <string name="migrate_blocked_numbers_dialog_allow_button">Allow</string>
+    <string name="migrate_blocked_numbers_dialog_cancel_button">@android:string/cancel</string>
+    <string name="migrate_blocked_numbers_dialog_message">To better protect you, Phone needs to change how blocking works. Your blocked numbers will now stop both calls and texts and may be shared with other apps.</string>
+    <string name="migrate_blocked_numbers_dialog_title">New, simplified blocking</string>
+    <string name="notification_action_voicemail_play">Play</string>
+    <string name="notification_missedCallTitle">Missed call</string>
+    <string name="notification_missedCall_call_back">Call back</string>
+    <string name="notification_missedCall_message">Message</string>
+    <string name="notification_missedCallsMsg"><ns1:g id="num_missed_calls">%s</ns1:g> missed calls</string>
+    <string name="notification_missedCallsTitle">Missed calls</string>
+    <string name="notification_missedWorkCallTitle">Missed work call</string>
+    <string name="notification_new_voicemail_ticker">New voicemail from
+        <ns1:g id="caller">%1$s</ns1:g>
+    </string>
+    <string name="notification_voicemail_callers_list"><ns1:g id="newer_callers">%1$s</ns1:g>,
+        <ns1:g id="older_caller">%2$s</ns1:g>
+    </string>
+    <string name="num_missed_calls"><ns1:g id="number">%s</ns1:g> new missed calls</string>
+    <string name="payphone">Payphone</string>
+    <string name="permission_multiple_turn_on">Set permissions</string>
+    <string name="permission_no_calllog">To see your call log, turn on the Phone permission.</string>
+    <string name="permission_no_contacts">To see your contacts, turn on the Contacts permission.</string>
+    <string name="permission_no_search">To search your contacts, turn on the Contacts permissions.</string>
+    <string name="permission_no_speeddial">To enable speed dial, turn on the Contacts permission.</string>
+    <string name="permission_no_voicemail">To access your voicemail, turn on the Phone permission.</string>
+    <string name="permission_place_call">To place a call, turn on the Phone permission.</string>
+    <string name="permission_single_turn_on">Turn on</string>
+    <string name="phone_account_settings_label">Calling accounts</string>
+    <string name="play_dtmf_preference_key" translatable="false">button_play_dtmf_tone</string>
+    <string name="private_num">Private number</string>
+    <string name="remove_contact">Remove</string>
+    <string name="respond_via_sms_setting_title">Quick responses</string>
+    <string name="ringtone_preference_key" translatable="false">button_ringtone_key</string>
+    <string name="ringtone_title">Phone ringtone</string>
+    <string name="search_shortcut_add_to_contact">Add to a contact</string>
+    <string name="search_shortcut_block_number">Block number</string>
+    <string name="search_shortcut_call_number">Call
+        <ns1:g id="number">%s</ns1:g>
+    </string>
+    <string name="search_shortcut_create_new_contact">Create new contact</string>
+    <string name="search_shortcut_make_video_call">Make video call</string>
+    <string name="search_shortcut_send_sms_message">Send SMS</string>
+    <string name="send_to_voicemail_import_failed">Import failed</string>
+    <string name="show_favorites_only">Show favorites only</string>
+    <string name="simContacts_emptyLoading">Loading from SIM card\u2026</string>
+    <string name="simContacts_title">SIM card contacts</string>
+    <string name="sms_disambig_title">Choose number</string>
+    <string name="snackbar_number_blocked">
+        <ns1:g example="(555) 555-5555" id="number">%1$s</ns1:g> blocked</string>
+    <string name="snackbar_number_unblocked">
+        <ns1:g example="(555) 555-5555" id="number">%1$s</ns1:g>
+        unblocked</string>
+    <string name="snackbar_voicemail_archived">Voicemail archived</string>
+    <string name="snackbar_voicemail_archived_goto">GOTO ARCHIVE</string>
+    <string name="snackbar_voicemail_deleted">Voicemail deleted</string>
+    <string name="snackbar_voicemail_deleted_undo">UNDO</string>
+    <string name="sounds_and_vibration_title">Sounds and vibration</string>
+    <string name="speed_dial_empty">No one is on your speed dial yet</string>
+    <string name="speed_dial_empty_add_favorite_action">Add a favorite</string>
+    <string name="tab_all_contacts">Contacts</string>
+    <string name="tab_history">Call History</string>
+    <string name="tab_speed_dial">Speed dial</string>
+    <string name="tab_voicemail">Voicemail</string>
+    <string name="toast_call_detail_error">Details not available</string>
+    <string name="toast_cannot_write_system_settings">Phone app does not have permission to write to system settings.</string>
+    <string name="toast_entry_removed">Deleted from call history</string>
+    <string name="type_blocked">Blocked call</string>
+    <string name="type_incoming">Incoming call</string>
+    <string name="type_incoming_video">Incoming video call</string>
+    <string name="type_missed">Missed call</string>
+    <string name="type_missed_video">Missed video call</string>
+    <string name="type_outgoing">Outgoing call</string>
+    <string name="type_outgoing_video">Outgoing video call</string>
+    <string name="type_rejected">Declined call</string>
+    <string name="type_voicemail">Voicemail</string>
+    <string name="unblock_number_confirmation_title">Unblock
+        <ns1:g example="(555) 555-5555" id="number">%1$s</ns1:g>?</string>
+    <string name="unblock_number_ok">UNBLOCK</string>
+    <string name="unknown">Unknown</string>
+    <string name="userCallActivityLabel" product="default">Phone</string>
+    <string name="vibrate_on_preference_key" translatable="false">button_vibrate_on_ring</string>
+    <string name="vibrate_on_ring_title">"Also vibrate for calls</string>
+    <string name="view_full_call_history_font_family">sans-serif</string>
+    <string name="visual_voicemail_settings">Settings</string>
+    <string name="visual_voicemail_text">
+        See and listen to your voicemail, without having to call a number. Data charges may apply.
+    </string>
+    <string name="visual_voicemail_title">Visual voicemail</string>
+    <string name="voice_search_not_available">Voice search not available</string>
+    <string name="voicemail">Voicemail</string>
+    <string name="voicemailCallLogDateTimeFormat"><ns1:g example="Jul 25, 2014" id="date">%1$s</ns1:g> at <ns1:g example="2:49 PM" id="time">%2$s</ns1:g></string>
+    <string name="voicemailCallLogDateTimeFormatWithDuration"><ns1:g example="Jul 25, 2014 at 2:49PM" id="dateAndTime">%1$s</ns1:g> \u2022 <ns1:g example="01:22" id="duration">%2$s</ns1:g></string>
+    <string name="voicemailCallLogToday">@string/call_log_header_today</string>
+    <string name="voicemailDurationFormat"><ns1:g example="10" id="minutes">%1$02d</ns1:g>:<ns1:g example="20" id="seconds">%2$02d</ns1:g></string>
+    <string name="voicemail_archive_activity_title">Voicemail Archive</string>
+    <string name="voicemail_archive_empty">Your voicemail archive is empty.</string>
+    <string name="voicemail_archive_failed">Failed to archive voicemail.</string>
+    <string name="voicemail_archiving_content">Archiving voicemail\u2026</string>
+    <string name="voicemail_fetching_content">Loading voicemail\u2026</string>
+    <string name="voicemail_fetching_timout">Couldn\'t load voicemail</string>
+    <string name="voicemail_play_faster">Play faster.</string>
+    <string name="voicemail_play_slower">Play slower.</string>
+    <string name="voicemail_play_start_pause">Start or pause playback.</string>
+    <string name="voicemail_playback_error">Couldn\'t play voicemail</string>
+    <string name="voicemail_speaker_off">Turn speaker off.</string>
+    <string name="voicemail_speaker_on">Turn speaker on.</string>
+    <string name="voicemail_status_action_call_server">Call voicemail</string>
+    <string name="voicemail_status_action_configure">Set up</string>
+    <string name="voicemail_status_audio_not_available">Audio not available</string>
+    <string name="voicemail_status_configure_voicemail">Set up your voicemail</string>
+    <string name="voicemail_status_messages_waiting">New voicemail waiting. Can\'t load right now.</string>
+    <string name="voicemail_status_voicemail_not_available">Voicemail updates not available</string>
+    <style name="AlertDialogTheme" parent="@android:style/Theme.Material.Light.Dialog">
+        <item name="android:colorAccent">@color/dialtacts_theme_color</item>
+    </style>
+    <style name="BlockedNumbersDescriptionTextStyle">
+        <item name="android:lineSpacingMultiplier">1.43</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:textSize">@dimen/blocked_number_settings_description_text_size</item>
+    </style>
+    <style name="CallDetailActionItemStyle">
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="android:clickable">true</item>
+        <item name="android:drawablePadding">@dimen/call_detail_action_item_drawable_padding</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingStart">@dimen/call_detail_action_item_padding_horizontal</item>
+        <item name="android:paddingEnd">@dimen/call_detail_action_item_padding_horizontal</item>
+        <item name="android:paddingTop">@dimen/call_detail_action_item_padding_vertical</item>
+        <item name="android:paddingBottom">@dimen/call_detail_action_item_padding_vertical</item>
+        <item name="android:textColor">@color/call_detail_footer_text_color</item>
+        <item name="android:textSize">@dimen/call_detail_action_item_text_size</item>
+    </style>
+    <style name="CallDetailActivityTheme" parent="DialtactsThemeWithoutActionBarOverlay">
+        <item name="android:windowBackground">@color/background_dialer_results</item>
+        <!-- CallLog -->
+        <item name="call_log_primary_background_color">#FFFFFF</item>
+        <item name="call_log_secondary_background_color">#FFFFFF</item>
+        <item name="call_log_header_color">#FFFFFF</item>
+        <!-- VoicemailStatus -->
+        <item name="call_log_voicemail_status_height">48dip</item>
+        <item name="call_log_voicemail_status_background_color">#262626</item>
+        <item name="call_log_voicemail_status_text_color">#888888</item>
+        <item name="call_log_voicemail_status_action_text_color">#33b5e5</item>
+        <item name="android:actionOverflowButtonStyle">@style/DialtactsActionBarOverflowWhite</item>
+    </style>
+    <style name="CallLogActionIconStyle">
+        <item name="android:layout_width">@dimen/call_log_action_icon_dimen</item>
+        <item name="android:layout_height">@dimen/call_log_action_icon_dimen</item>
+        <item name="android:layout_marginStart">@dimen/call_log_action_icon_margin_start</item>
+        <item name="android:tint">?attr/call_log_secondary_text_color</item>
+        <item name="android:importantForAccessibility">no</item>
+    </style>
+    <style name="CallLogActionStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/call_log_action_height</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="CallLogActionSupportTextStyle" parent="@style/CallLogActionTextStyle">
+        <item name="android:textSize">@dimen/call_log_detail_text_size</item>
+        <item name="android:textColor">@color/call_log_detail_color</item>
+    </style>
+    <style name="CallLogActionTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">@dimen/call_log_action_horizontal_padding</item>
+        <item name="android:paddingEnd">@dimen/call_log_action_horizontal_padding</item>
+        <item name="android:textColor">@color/call_log_action_color</item>
+        <item name="android:textSize">@dimen/call_log_primary_text_size</item>
+        <item name="android:fontFamily">"sans-serif"</item>
+        <item name="android:focusable">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:importantForAccessibility">no</item>
+    </style>
+    <style name="CallLogCardStyle" parent="CardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:baselineAligned">false</item>
+        <item name="cardCornerRadius">2dp</item>
+        <item name="cardBackgroundColor">@color/background_dialer_call_log_list_item</item>
+    </style>
+    <style name="DialerButtonTextStyle" parent="@android:style/TextAppearance.Material.Widget.Button">
+        <item name="android:textColor">#fff</item>
+    </style>
+    <style name="DialerFlatButtonStyle" parent="@android:style/Widget.Material.Button">
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:paddingEnd">@dimen/button_horizontal_padding</item>
+        <item name="android:paddingStart">@dimen/button_horizontal_padding</item>
+        <item name="android:textColor">@color/dialer_flat_button_text_color</item>
+    </style>
+    <style name="DialerPrimaryFlatButtonStyle" parent="@android:style/Widget.Material.Button">
+        <item name="android:background">@drawable/selectable_primary_flat_button</item>
+        <item name="android:paddingEnd">@dimen/button_horizontal_padding</item>
+        <item name="android:paddingStart">@dimen/button_horizontal_padding</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="DialpadTheme" parent="DialtactsTheme">
+        <item name="android:textColorPrimary">#FFFFFF</item>
+    </style>
+    <style name="DialtactsActionBarOverflow" parent="@android:style/Widget.Material.Light.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_overflow_menu</item>
+    </style>
+    <style name="DialtactsActionBarOverflowWhite" parent="@android:style/Widget.Material.Light.ActionButton.Overflow">
+        <item name="android:src">@drawable/overflow_menu</item>
+    </style>
+    <style name="DialtactsActionBarStyle" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <!-- Styles that require AppCompat compatibility, remember to update both sets -->
+        <item name="android:background">@color/actionbar_background_color</item>
+        <item name="background">@color/actionbar_background_color</item>
+        <item name="android:titleTextStyle">@style/DialtactsActionBarTitleText</item>
+        <item name="titleTextStyle">@style/DialtactsActionBarTitleText</item>
+        <item name="android:height">@dimen/action_bar_height</item>
+        <item name="height">@dimen/action_bar_height</item>
+        <item name="android:elevation">@dimen/action_bar_elevation</item>
+        <item name="elevation">@dimen/action_bar_elevation</item>
+        <!-- Empty icon -->
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="icon">@android:color/transparent</item>
+        <!-- Shift the title text to the right -->
+        <item name="android:contentInsetStart">@dimen/actionbar_contentInsetStart</item>
+        <item name="contentInsetStart">@dimen/actionbar_contentInsetStart</item>
+    </style>
+    <style name="DialtactsActionBarTabTextStyle" parent="android:style/Widget.Material.Light.ActionBar.TabText">
+        <item name="android:textColor">@color/tab_text_color</item>
+        <item name="android:textSize">@dimen/tab_text_size</item>
+        <item name="android:fontFamily">"sans-serif-medium"</item>
+    </style>
+    <style name="DialtactsActionBarTitleText" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/actionbar_text_color</item>
+    </style>
+    <style name="DialtactsActionBarWithoutTitleStyle" parent="DialtactsActionBarStyle">
+        <!-- Styles that require AppCompat compatibility, remember to update both sets -->
+        <item name="android:displayOptions"/>
+        <item name="displayOptions"/>
+        <item name="android:height">@dimen/action_bar_height_large</item>
+        <item name="height">@dimen/action_bar_height_large</item>
+        <!-- Override ActionBar title offset to keep search box aligned left -->
+        <item name="android:contentInsetStart">0dp</item>
+        <item name="contentInsetStart">0dp</item>
+        <item name="android:contentInsetEnd">0dp</item>
+        <item name="contentInsetEnd">0dp</item>
+    </style>
+    <style name="DialtactsActivityTheme" parent="DialtactsTheme">
+        <!-- Styles that require AppCompat compatibility, remember to update both sets -->
+        <item name="android:actionBarStyle">@style/DialtactsActionBarWithoutTitleStyle</item>
+        <item name="actionBarStyle">@style/DialtactsActionBarWithoutTitleStyle</item>
+
+        <item name="android:fastScrollThumbDrawable">@drawable/fastscroll_thumb</item>
+        <item name="android:fastScrollTrackDrawable">@null</item>
+    </style>
+    <style name="DialtactsTheme" parent="Theme.AppCompat.Light">
+        <item name="android:textColorPrimary">@color/dialtacts_primary_text_color</item>
+        <item name="android:textColorSecondary">@color/dialtacts_secondary_text_color</item>
+
+        <!-- Styles that require AppCompat compatibility, remember to update both sets -->
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:actionBarStyle">@style/DialtactsActionBarStyle</item>
+        <item name="actionBarStyle">@style/DialtactsActionBarStyle</item>
+        <!-- Style for the overflow button in the actionbar. -->
+        <item name="android:actionOverflowButtonStyle">@style/DialtactsActionBarOverflow</item>
+        <item name="actionOverflowButtonStyle">@style/DialtactsActionBarOverflow</item>
+
+        <!--  Drawable for the back button -->
+        <item name="android:homeAsUpIndicator">@drawable/ic_back_arrow</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:listViewStyle">@style/ListViewStyle</item>
+        <item name="android:overlapAnchor">true</item>
+        <item name="android:alertDialogTheme">@style/AlertDialogTheme</item>
+        <item name="activated_background">@drawable/list_item_activated_background</item>
+        <item name="section_header_background">@drawable/list_title_holo</item>
+        <item name="list_section_header_height">32dip</item>
+        <item name="list_item_padding_top">12dp</item>
+        <item name="list_item_padding_right">24dp</item>
+        <item name="list_item_padding_bottom">12dp</item>
+        <item name="list_item_padding_left">16dp</item>
+        <item name="list_item_gap_between_image_and_text">
+            @dimen/contact_browser_list_item_gap_between_image_and_text
+        </item>
+        <item name="list_item_gap_between_label_and_data">8dip</item>
+        <item name="list_item_presence_icon_margin">4dip</item>
+        <item name="list_item_presence_icon_size">16dip</item>
+        <item name="list_item_photo_size">@dimen/contact_browser_list_item_photo_size</item>
+        <item name="list_item_profile_photo_size">70dip</item>
+        <item name="list_item_prefix_highlight_color">@color/people_app_theme_color</item>
+        <item name="list_item_background_color">@color/background_dialer_light</item>
+        <item name="list_item_header_text_indent">8dip</item>
+        <item name="list_item_header_text_color">@color/dialtacts_secondary_text_color</item>
+        <item name="list_item_header_text_size">14sp</item>
+        <item name="list_item_header_height">30dip</item>
+        <item name="list_item_data_width_weight">5</item>
+        <item name="list_item_label_width_weight">3</item>
+        <item name="contact_browser_list_padding_left">0dp</item>
+        <item name="contact_browser_list_padding_right">0dp</item>
+        <item name="contact_browser_background">@color/background_dialer_results</item>
+        <item name="list_item_name_text_color">@color/contact_list_name_text_color</item>
+        <item name="list_item_name_text_size">16sp</item>
+        <item name="list_item_text_indent">@dimen/contact_browser_list_item_text_indent</item>
+        <item name="list_item_text_offset_top">-2dp</item>
+        <!-- CallLog -->
+        <item name="call_log_primary_text_color">@color/dialtacts_primary_text_color</item>
+        <item name="call_log_primary_background_color">#000000</item>
+        <item name="call_log_secondary_text_color">@color/dialtacts_secondary_text_color</item>
+        <item name="call_log_secondary_background_color">#333333</item>
+        <item name="call_log_header_color">#33b5e5</item>
+        <!-- VoicemailStatus -->
+        <item name="call_log_voicemail_status_height">48dip</item>
+        <item name="call_log_voicemail_status_background_color">#262626</item>
+        <item name="call_log_voicemail_status_text_color">#888888</item>
+        <item name="call_log_voicemail_status_action_text_color">#33b5e5</item>
+            <!-- Favorites -->
+        <item name="favorites_padding_bottom">?android:attr/actionBarSize</item>
+        <item name="android:colorPrimary">@color/dialer_theme_color</item>
+        <item name="android:colorPrimaryDark">@color/dialer_theme_color_dark</item>
+        <item name="dialpad_key_button_touch_tint">@color/dialer_dialpad_touch_tint</item>
+        <item name="android:colorControlActivated">@color/dialer_theme_color</item>
+        <item name="android:colorButtonNormal">@color/dialer_theme_color</item>
+        <item name="android:textAppearanceButton">@style/DialerButtonTextStyle</item>
+
+        <!-- Video call icon -->
+        <item name="list_item_video_call_icon_size">32dip</item>
+        <item name="list_item_video_call_icon_margin">8dip</item>
+    </style>
+    <style name="DialtactsThemeWithoutActionBarOverlay" parent="DialtactsTheme">
+        <!-- Styles that require AppCompat compatibility, remember to update both sets -->
+        <item name="android:windowActionBarOverlay">false</item>
+        <item name="windowActionBarOverlay">false</item>
+        <item name="android:actionOverflowButtonStyle">@style/DialtactsActionBarOverflowWhite</item>
+        <item name="actionOverflowButtonStyle">@style/DialtactsActionBarOverflowWhite</item>
+    </style>
+    <style name="DismissButtonStyle">
+        <item name="android:paddingLeft">@dimen/dismiss_button_padding_start</item>
+        <item name="android:paddingRight">@dimen/dismiss_button_padding_end</item>
+    </style>
+    <style name="FullWidthDivider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+    <style name="ListViewStyle" parent="@android:style/Widget.Material.Light.ListView">
+        <item name="android:overScrollMode">always</item>
+    </style>
+    <style name="ManageBlockedNumbersActionBarStyle" parent="DialtactsActionBarWithoutTitleStyle">
+        <!-- Styles that require AppCompat compatibility, remember to update both sets -->
+        <item name="android:height">@dimen/action_bar_height</item>
+        <item name="height">@dimen/action_bar_height</item>
+    </style>
+    <style name="ManageBlockedNumbersStyle" parent="SettingsStyle">
+        <!-- Styles that require AppCompat compatibility, remember to update both sets -->
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:actionBarStyle">@style/ManageBlockedNumbersActionBarStyle</item>
+        <item name="actionBarStyle">@style/ManageBlockedNumbersActionBarStyle</item>
+        <item name="android:fastScrollTrackDrawable">@null</item>
+    </style>
+    <style name="PromoCardActionStyle" parent="TextActionStyle">
+        <item name="android:textColor">@color/promo_card_text</item>
+        <item name="android:textSize">@dimen/call_log_primary_text_size</item>
+    </style>
+    <style name="SettingsStyle" parent="DialtactsThemeWithoutActionBarOverlay">
+        <!-- Setting text. -->
+        <item name="android:textColorPrimary">@color/settings_text_color_primary</item>
+        <!-- Setting description. -->
+        <item name="android:textColorSecondary">@color/settings_text_color_secondary</item>
+        <item name="android:windowBackground">@color/setting_background_color</item>
+        <item name="android:colorAccent">@color/dialtacts_theme_color</item>
+        <item name="android:textColorLink">@color/dialtacts_theme_color</item>
+    </style>
+    <style name="TextActionStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/call_log_action_height</item>
+        <item name="android:gravity">end|center_vertical</item>
+        <item name="android:paddingStart">@dimen/call_log_action_horizontal_padding</item>
+        <item name="android:paddingEnd">@dimen/call_log_action_horizontal_padding</item>
+        <item name="android:textColor">@color/dialtacts_theme_color</item>
+        <item name="android:fontFamily">"sans-serif-medium"</item>
+        <item name="android:focusable">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="VoicemailPlaybackLayoutButtonStyle">
+        <item name="android:layout_width">56dp</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:background">@drawable/oval_ripple</item>
+        <item name="android:padding">8dp</item>
+    </style>
+    <style name="VoicemailPlaybackLayoutTextStyle">
+        <item name="android:textSize">14sp</item>
+    </style>
+</resources>
