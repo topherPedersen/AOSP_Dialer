@@ -4,6 +4,13 @@ ADDED from /Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/src/mai
 INJECTED from /Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/src/main/AndroidManifest.xml:17:1-361:12
 INJECTED from /Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/src/main/AndroidManifest.xml:17:1-361:12
 INJECTED from /Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/src/main/AndroidManifest.xml:17:1-361:12
+MERGED from [com.android.support:support-v13:24.0.0] /Users/topherpedersen/.gradle/caches/transforms-1/files-1.1/support-v13-24.0.0.aar/7d6f7e3a7e1f654ec84bfe374c125823/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:design:24.0.0] /Users/topherpedersen/.gradle/caches/transforms-1/files-1.1/design-24.0.0.aar/d11f29f274fde530c8c91616a1764e5a/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:24.0.0] /Users/topherpedersen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.0.0.aar/a67ed44ec0f294972be038e82d41466a/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:recyclerview-v7:24.0.0] /Users/topherpedersen/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-24.0.0.aar/2407d618a8ce3f572d9192cc18dcf5af/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] /Users/topherpedersen/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-24.0.0.aar/1f583fcde94e26fa8ac14eaddf82fccf/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-vector-drawable:24.0.0] /Users/topherpedersen/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-24.0.0.aar/e4dd7dc24d3e3a936db06d2883ab221f/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-v4:24.0.0] /Users/topherpedersen/.gradle/caches/transforms-1/files-1.1/support-v4-24.0.0.aar/a13eb0c2c0636dc799254cded7db11fe/AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support:cardview-v7:24.0.0] /Users/topherpedersen/.gradle/caches/transforms-1/files-1.1/cardview-v7-24.0.0.aar/5b1dd5d2739c07b9c725f712882cb034/AndroidManifest.xml:17:1-24:12
 INJECTED from /Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/src/main/AndroidManifest.xml:17:1-361:12
 INJECTED from /Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/src/main/AndroidManifest.xml:17:1-361:12
@@ -28,10 +35,26 @@ uses-sdk
 ADDED from /Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/src/main/AndroidManifest.xml:23:5-25:41
 INJECTED from /Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/src/main/AndroidManifest.xml:23:5-25:41
 INJECTED from /Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/src/main/AndroidManifest.xml:23:5-25:41
+MERGED from [com.android.support:support-v13:24.0.0] /Users/topherpedersen/.gradle/caches/transforms-1/files-1.1/support-v13-24.0.0.aar/7d6f7e3a7e1f654ec84bfe374c125823/AndroidManifest.xml:21:5-23:55
+MERGED from [com.android.support:support-v13:24.0.0] /Users/topherpedersen/.gradle/caches/transforms-1/files-1.1/support-v13-24.0.0.aar/7d6f7e3a7e1f654ec84bfe374c125823/AndroidManifest.xml:21:5-23:55
+MERGED from [com.android.support:design:24.0.0] /Users/topherpedersen/.gradle/caches/transforms-1/files-1.1/design-24.0.0.aar/d11f29f274fde530c8c91616a1764e5a/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:24.0.0] /Users/topherpedersen/.gradle/caches/transforms-1/files-1.1/design-24.0.0.aar/d11f29f274fde530c8c91616a1764e5a/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:24.0.0] /Users/topherpedersen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.0.0.aar/a67ed44ec0f294972be038e82d41466a/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:24.0.0] /Users/topherpedersen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.0.0.aar/a67ed44ec0f294972be038e82d41466a/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:recyclerview-v7:24.0.0] /Users/topherpedersen/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-24.0.0.aar/2407d618a8ce3f572d9192cc18dcf5af/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:24.0.0] /Users/topherpedersen/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-24.0.0.aar/2407d618a8ce3f572d9192cc18dcf5af/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] /Users/topherpedersen/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-24.0.0.aar/1f583fcde94e26fa8ac14eaddf82fccf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] /Users/topherpedersen/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-24.0.0.aar/1f583fcde94e26fa8ac14eaddf82fccf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.0.0] /Users/topherpedersen/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-24.0.0.aar/e4dd7dc24d3e3a936db06d2883ab221f/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-vector-drawable:24.0.0] /Users/topherpedersen/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-24.0.0.aar/e4dd7dc24d3e3a936db06d2883ab221f/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.0.0] /Users/topherpedersen/.gradle/caches/transforms-1/files-1.1/support-v4-24.0.0.aar/a13eb0c2c0636dc799254cded7db11fe/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:24.0.0] /Users/topherpedersen/.gradle/caches/transforms-1/files-1.1/support-v4-24.0.0.aar/a13eb0c2c0636dc799254cded7db11fe/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:cardview-v7:24.0.0] /Users/topherpedersen/.gradle/caches/transforms-1/files-1.1/cardview-v7-24.0.0.aar/5b1dd5d2739c07b9c725f712882cb034/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:cardview-v7:24.0.0] /Users/topherpedersen/.gradle/caches/transforms-1/files-1.1/cardview-v7-24.0.0.aar/5b1dd5d2739c07b9c725f712882cb034/AndroidManifest.xml:20:5-43
 INJECTED from /Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/src/main/AndroidManifest.xml:23:5-25:41
 INJECTED from /Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/src/main/AndroidManifest.xml:23:5-25:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v13:24.0.0] /Users/topherpedersen/.gradle/caches/transforms-1/files-1.1/support-v13-24.0.0.aar/7d6f7e3a7e1f654ec84bfe374c125823/AndroidManifest.xml:23:9-52
 	android:targetSdkVersion
 		ADDED from /Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/src/main/AndroidManifest.xml:25:9-38
 		INJECTED from /Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/src/main/AndroidManifest.xml
@@ -174,6 +197,18 @@ ADDED from /Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/src/mai
 		ADDED from /Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/src/main/AndroidManifest.xml:62:22-73
 application
 ADDED from /Users/topherpedersen/Desktop/AOSP_Dialer/Dialernougatrelease/src/main/AndroidManifest.xml:64:5-360:19
+MERGED from [com.android.support:support-v13:24.0.0] /Users/topherpedersen/.gradle/caches/transforms-1/files-1.1/support-v13-24.0.0.aar/7d6f7e3a7e1f654ec84bfe374c125823/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v13:24.0.0] /Users/topherpedersen/.gradle/caches/transforms-1/files-1.1/support-v13-24.0.0.aar/7d6f7e3a7e1f654ec84bfe374c125823/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:design:24.0.0] /Users/topherpedersen/.gradle/caches/transforms-1/files-1.1/design-24.0.0.aar/d11f29f274fde530c8c91616a1764e5a/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:24.0.0] /Users/topherpedersen/.gradle/caches/transforms-1/files-1.1/design-24.0.0.aar/d11f29f274fde530c8c91616a1764e5a/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:24.0.0] /Users/topherpedersen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.0.0.aar/a67ed44ec0f294972be038e82d41466a/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:24.0.0] /Users/topherpedersen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.0.0.aar/a67ed44ec0f294972be038e82d41466a/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] /Users/topherpedersen/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-24.0.0.aar/1f583fcde94e26fa8ac14eaddf82fccf/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] /Users/topherpedersen/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-24.0.0.aar/1f583fcde94e26fa8ac14eaddf82fccf/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.0.0] /Users/topherpedersen/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-24.0.0.aar/e4dd7dc24d3e3a936db06d2883ab221f/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-vector-drawable:24.0.0] /Users/topherpedersen/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-24.0.0.aar/e4dd7dc24d3e3a936db06d2883ab221f/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /Users/topherpedersen/.gradle/caches/transforms-1/files-1.1/support-v4-24.0.0.aar/a13eb0c2c0636dc799254cded7db11fe/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /Users/topherpedersen/.gradle/caches/transforms-1/files-1.1/support-v4-24.0.0.aar/a13eb0c2c0636dc799254cded7db11fe/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:cardview-v7:24.0.0] /Users/topherpedersen/.gradle/caches/transforms-1/files-1.1/cardview-v7-24.0.0.aar/5b1dd5d2739c07b9c725f712882cb034/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:cardview-v7:24.0.0] /Users/topherpedersen/.gradle/caches/transforms-1/files-1.1/cardview-v7-24.0.0.aar/5b1dd5d2739c07b9c725f712882cb034/AndroidManifest.xml:22:5-20
 	android:backupAgent
